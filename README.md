@@ -14,6 +14,8 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=false&margin-w=4) -->
+## 🌐 Language:
+[![日本語](https://img.shields.io/badge/日本語-English-red)](README-ja.md)
 
 # 👋 Hello, there! I'm Tanvir Ahamed!
 
