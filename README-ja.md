@@ -1,7 +1,7 @@
 ## 🌐 言語:
 [![English](https://img.shields.io/badge/English-日本語-red)](README.md)
 
-# 👋 こんにちは！私は[あなたの名前]です！
+# 👋 こんにちは！タンヴィルと申します！
 
 ## 💼 自己紹介:
 - 🔭 現在はPython開発に取り組んでいます
