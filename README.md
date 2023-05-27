@@ -1,4 +1,4 @@
-# 💫 About Me:
+<!-- # 💫 About Me:
 🔭 I’m currently working on Python Development<br>👯 I’m looking to collaborate on AI/ML Projects<br>🤝 I’m looking for help with Jenkins & Docker<br>🌱 I’m currently learning DevOps<br>💬 About me https://tanvirkse101.github.io/portfolio/<br>⚡ Fun fact - I love :eyes: anime, :video_game: video games & :musical_note: music
 
 
@@ -13,9 +13,9 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=false&margin-w=4) -->
 
-<!-- ## 👋 Hello, there! I'm Tanvir Ahamed!
+# 👋 Hello, there! I'm Tanvir Ahamed!
 
 ## 💼 About Me:
 - 🔭 Currently working on Python Development
@@ -52,4 +52,4 @@
 
 ## 🏆 GitHub Trophies
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=false&margin-w=4)
- -->
+
