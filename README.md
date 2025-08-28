@@ -1,5 +1,5 @@
 <!-- # 💫 About Me:
-🔭 I’m currently working on Python Development<br>👯 I’m looking to collaborate on AI/ML Projects<br>🤝 I’m looking for help with Jenkins & Docker<br>🌱 I’m currently learning DevOps<br>💬 About me https://tanvirkse101.github.io/portfolio/<br>⚡ Fun fact - I love :eyes: anime, :video_game: video games & :musical_note: music
+🔭 I’m currently working on Python Development<br>👯 I’m looking to collaborate on AI/ML Projects<br>🤝 I’m looking for help with Jenkins & Docker<br>🌱 I’m currently learning AI / ML <br>💬 About me https://tanvirkse101.github.io/portfolio/<br>⚡ Fun fact - I love :eyes: anime, :video_game: video games & :musical_note: music
 
 
 ## 🌐 Socials:
