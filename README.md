@@ -1,7 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff00cc,50:8a2be2,100:00ffff&height=250&section=header&text=TANVIR%20AHAMED&fontSize=70&fontColor=00ffff&animation=twinkling&desc=%3C%20SOFTWARE%20ENGINEER%20//%20AI%20SYSTEMS%20//%20NETRUNNER%20%3E&descAlignY=70&descSize=16" width="100%"/>
+<!-- ═══════════ ANIMATED GLITCH HEADER ═══════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff00cc,50:8a2be2,100:00ffff&height=250&section=header&text=TANVIR%20AHAMED&fontSize=70&fontColor=00ffff&animation=twinkling&desc=%5B%20SOFTWARE%20ENGINEER%20%2F%2F%20AI%20SYSTEMS%20%2F%2F%20NETRUNNER%20%5D&descAlignY=70&descSize=16" width="100%"/>
 
+<!-- ═══════════ TERMINAL BOOT SEQUENCE ═══════════ -->
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=2500&pause=600&color=FF00CC&center=true&vCenter=true&width=700&lines=%3E+initializing+neural_link...;%3E+deploying+AI+to+production...;%3E+Flutter+%2B+Python+%2B+GCP+%3A%3A+ONLINE;%3E+wake+up%2C+samurai.+we+have+code+to+ship." alt="typing" />
 
 <code>📍 JAPAN 🇯🇵 ⟷ BANGLADESH 🇧🇩</code>
@@ -14,7 +16,8 @@
 
 </div>
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
 
 ```
  ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██████╗ ███████╗ ██████╗██╗  ██╗
@@ -44,9 +47,14 @@ directive: "It works on my machine → It works in production"
 # ═══════════════════════════════════════════════════════════════════
 ```
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
 
 ## `> ls ./active_protocols`
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=16&duration=2000&pause=400&color=00FFFF&center=true&vCenter=true&width=800&lines=SCANNING+ACTIVE+PROTOCOLS...;6+MODULES+LOADED+::+ALL+SYSTEMS+NOMINAL" alt="scanning" />
+</div>
 
 <table>
 <tr>
@@ -111,7 +119,8 @@ directive: "It works on my machine → It works in production"
 </tr>
 </table>
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
 
 ## `> cat ./loadout.sys`
 
@@ -159,7 +168,18 @@ directive: "It works on my machine → It works in production"
 
 </div>
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
+
+## `> run ./snake_protocol.exe`
+
+<!-- 🐍 CONTRIBUTION-EATING SNAKE — requires the snake.yml workflow (see setup) -->
+<div align="center">
+<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg" alt="snake eating contributions" width="95%"/>
+</div>
+
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
 
 ## `> run ./current_ops.exe`
 
@@ -174,7 +194,8 @@ directive: "It works on my machine → It works in production"
 └────────────────────────────── [STATUS: ALL SYSTEMS NOMINAL] ──┘
 ```
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
 
 ## `> fetch ./github_telemetry`
 
@@ -185,17 +206,30 @@ directive: "It works on my machine → It works in production"
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&hide_border=true&background=0d0221&ring=ff00cc&fire=00ffff&currStreakLabel=00ffff&sideLabels=8a2be2&currStreakNum=ff00cc&sideNums=ff00cc&dates=666" height="170"/>
 
+<!-- ⚡ ANIMATED CONTRIBUTION PULSE GRAPH -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanvirkse101&bg_color=0d0221&color=00ffff&line=ff00cc&point=8a2be2&area=true&hide_border=true" width="95%"/>
 
 </div>
 
-<br/>
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
+
+## `> unlock ./trophy_vault`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%"/>
+
+</div>
+
+<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
 
 ## `> decrypt ./offline_mode`
 
 <div align="center">
 
-<code>ANIME</code> ⟨⧸⟩ <code>VIDEO GAMES</code> ⟨⧸⟩ <code>MUSIC</code> ⟨⧸⟩ <code>OVERTHINKING SYSTEM ARCHITECTURE FOR FUN</code>
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=18&duration=2200&pause=500&color=8A2BE2&center=true&vCenter=true&width=700&lines=ANIME+%E2%9F%A8%E2%A7%B8%E2%9F%A9+VIDEO+GAMES+%E2%9F%A8%E2%A7%B8%E2%9F%A9+MUSIC;OVERTHINKING+SYSTEM+ARCHITECTURE+FOR+FUN;RESPAWNING+IN+3...+2...+1..." alt="offline mode" />
 
 </div>
 
@@ -209,7 +243,8 @@ directive: "It works on my machine → It works in production"
 ╚══════════════════════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffff,50:8a2be2,100:ff00cc&height=150&section=footer" width="100%"/>
+<!-- ═══════════ ANIMATED FOOTER WAVE ═══════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffff,50:8a2be2,100:ff00cc&height=150&section=footer&animation=fadeIn" width="100%"/>
 
 **`[ CONNECTION TERMINATED ]`**
 
