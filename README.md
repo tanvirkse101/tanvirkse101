@@ -7,7 +7,7 @@
 🇯🇵 Japan &nbsp;•&nbsp; 🇧🇩 Bangladesh
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanvir-ahamed-9256121b9)
-[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=0072ff)](https://github.com/YOUR_GITHUB_USERNAME)
+[![Profile Views](https://komarev.com/ghpvc/?username=tanvirkse101&style=for-the-badge&color=0072ff)](https://github.com/tanvirkse101)
 
 </div>
 
@@ -117,10 +117,10 @@ mindmap
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0d1117" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&theme=tokyonight&hide_border=true&background=0d1117" height="165"/>
 
 </div>
 
