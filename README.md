@@ -1,78 +1,88 @@
 <div align="center">
 
-<!-- ═══════════ ANIMATED GLITCH HEADER ═══════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff00cc,50:8a2be2,100:00ffff&height=250&section=header&text=TANVIR%20AHAMED&fontSize=70&fontColor=00ffff&animation=twinkling&desc=%5B%20SOFTWARE%20ENGINEER%20%2F%2F%20AI%20SYSTEMS%20%2F%2F%20NETRUNNER%20%5D&descAlignY=70&descSize=16" width="100%"/>
+<!-- ═══════════════════ ANIMATED HEADER ═══════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,25:414868,50:7aa2f7,75:bb9af7,100:7dcfff&height=280&section=header&text=TANVIR%20AHAMED&fontSize=72&fontColor=c0caf5&animation=fadeIn&desc=Software%20Engineer%20%E2%80%A2%20Python%20%E2%80%A2%20Flutter%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Tsukuba%2C%20Japan%20%F0%9F%97%BE&descAlignY=75&descSize=18&fontAlignY=40" width="100%"/>
 
-<!-- ═══════════ TERMINAL BOOT SEQUENCE ═══════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=2500&pause=600&color=FF00CC&center=true&vCenter=true&width=700&lines=%3E+initializing+neural_link...;%3E+deploying+AI+to+production...;%3E+Flutter+%2B+Python+%2B+GCP+%3A%3A+ONLINE;%3E+wake+up%2C+samurai.+we+have+code+to+ship." alt="typing" />
-
-<code>📍 JAPAN 🇯🇵 ⟷ BANGLADESH 🇧🇩</code>
+<!-- ═══════════════════ TYPING TERMINAL ═══════════════════ -->
+<a href="https://github.com/tanvirkse101">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=7AA2F7&center=true&vCenter=true&multiline=false&width=800&lines=%24+ssh+tanvir%40tsukuba.jp;%3E+building+AI+that+actually+ships+%F0%9F%9A%80;%3E+Python+%C2%B7+Flutter+%C2%B7+Cloud+%C2%B7+ML;%3E+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E3%80%81%E7%A7%81%E3%81%AE%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%81%B8+%F0%9F%91%8B;%3E+Dhaka+%E2%86%92+Tokyo+%E2%86%92+Production+%F0%9F%9A%80" alt="typing intro" />
+</a>
 
 <br/><br/>
 
-[![LINKEDIN](https://img.shields.io/badge/⧉_LINKEDIN-JACK_IN-ff00cc?style=for-the-badge&labelColor=0d0221)](https://linkedin.com/in/tanvir-ahamed-9256121b9)
-![STATUS](https://img.shields.io/badge/⚡_STATUS-SHIPPING_TO_PROD-00ffff?style=for-the-badge&labelColor=0d0221)
-[![VIEWS](https://komarev.com/ghpvc/?username=tanvirkse101&style=for-the-badge&color=8a2be2&label=⌾+SCANS)](https://github.com/tanvirkse101)
+<!-- ═══════════════════ CONTACT BADGES ═══════════════════ -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanvirkse-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=c0caf5&labelColor=1a1b27)](https://www.linkedin.com/in/tanvirkse)
+[![Portfolio](https://img.shields.io/badge/Portfolio-tanvirkse101.github.io-bb9af7?style=for-the-badge&logo=googlechrome&logoColor=c0caf5&labelColor=1a1b27)](https://tanvirkse101.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/Email-tanvirahamedkse@gmail.com-7dcfff?style=for-the-badge&logo=gmail&logoColor=c0caf5&labelColor=1a1b27)](mailto:tanvirahamedkse@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=tanvirkse101&style=for-the-badge&color=9ece6a&label=VISITORS)](https://github.com/tanvirkse101)
+
+<code>🇯🇵 日本語 OK</code> <code>🇬🇧 English OK</code> <code>🇧🇩 বাংলা OK</code>
 
 </div>
 
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
 
-```
- ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██████╗ ███████╗ ██████╗██╗  ██╗
-██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝██║ ██╔╝
-██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║  ██║█████╗  ██║     █████╔╝
-██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██║  ██║██╔══╝  ██║     ██╔═██╗
-╚██████╗   ██║   ██████╔╝███████╗██║  ██║██████╔╝███████╗╚██████╗██║  ██╗
- ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝
-```
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> `$ whoami`
 
-## `> whoami --verbose`
+```python
+class TanvirAhamed(SoftwareEngineer):
+    """Full-stack engineer who treats production as the only environment that matters."""
 
-```yaml
-# ═══════════════════════[ NETRUNNER PROFILE ]═══════════════════════
-handle:     "Tanvir Ahamed"
-class:      Software Engineer
-subclass:   [AI/ML Engineer, Backend Architect, DevOps Operator]
+    def __init__(self):
+        self.location   = "Tsukuba, Ibaraki, Japan 🗾"
+        self.current    = "Software Engineer @ AIZOTH Inc."
+        self.journey    = ["eSRD-Lab 🇧🇩", "B-JET 🇧🇩→🇯🇵", "Have a Talk Inc. 🇯🇵", "AIZOTH Inc. 🇯🇵"]
+        self.degree     = "B.Sc. Computer Engineering — North South University"
+        self.languages  = {"English": "Full Professional", "日本語": "Professional", "বাংলা": "Native"}
 
-cyberware:
-  neural_processor:  [Python, Dart, TypeScript, JavaScript, PHP]
-  combat_interface:  [Flutter, FastAPI, Django, Flask, Spring Boot, Laravel]
-  ai_coprocessor:    [PyTorch, TensorFlow, scikit-learn, Pandas, NumPy]
-  cloud_uplink:      [GCP, Firebase, AWS, Docker, CI/CD, Linux]
-  data_vault:        [Firestore, Cloud Storage, PostgreSQL, MySQL]
+    def daily_stack(self) -> dict:
+        return {
+            "backend":   ["Python", "Django", "Flask", "FastAPI", "Laravel", "Rails", "Spring Boot"],
+            "frontend":  ["Flutter", "TypeScript", "Angular"],
+            "ai_ml":     ["PyTorch", "TensorFlow", "scikit-learn", "Pandas", "NumPy"],
+            "cloud":     ["GCP", "Firebase", "AWS", "Docker", "CI/CD", "Linux"],
+            "databases": ["PostgreSQL", "MySQL", "MongoDB", "Firestore", "Redis"],
+        }
 
-directive: "It works on my machine → It works in production"
-# ═══════════════════════════════════════════════════════════════════
+    def motto(self) -> str:
+        return "It works on my machine → It works in production. No exceptions."
 ```
 
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
 
-## `> ls ./active_protocols`
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> `$ git log --career`
 
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=16&duration=2000&pause=400&color=00FFFF&center=true&vCenter=true&width=800&lines=SCANNING+ACTIVE+PROTOCOLS...;6+MODULES+LOADED+::+ALL+SYSTEMS+NOMINAL" alt="scanning" />
-</div>
+```mermaid
+%%{init: {'theme':'dark','themeVariables':{'commitLabelFontSize':'14px','tagLabelFontSize':'13px'}}}%%
+gitGraph
+    commit id: "B.Sc. CompEng @ NSU" tag: "2020"
+    commit id: "Programmer @ eSRD-Lab 🇧🇩" tag: "2020-2023"
+    branch japan
+    checkout japan
+    commit id: "B-JET — 日本語 + SWE training" tag: "2023"
+    commit id: "System Engineer @ Have a Talk 🇯🇵" tag: "2024-2025"
+    commit id: "Software Engineer @ AIZOTH ⚡" tag: "2025-NOW" type: HIGHLIGHT
+```
 
-<table>
+<table align="center">
 <tr>
 <td>
 
 ```diff
-+ [PROTOCOL_01] :: AI/ML PIPELINES
-! preprocessing → training → deployment
-! models that ship. not notebooks.
++ ⚡ AIZOTH Inc. — Software Engineer (NOW)
+! AI-driven products · Python · Flutter · GCP
+! Tsukuba, Japan — shipping AI to production
 ```
 
 </td>
 <td>
 
 ```diff
-+ [PROTOCOL_02] :: CLOUD-NATIVE CORE
-! GCP-first: Firestore / Cloud Storage
-! Firebase Auth / containerized services
++ 🔐 Have a Talk Inc. — System Engineer
+! Laravel · Rails · PostgreSQL · Redis · AWS
+! MFA (WebAuthn/SMS) · REST APIs · Docker
 ```
 
 </td>
@@ -81,171 +91,132 @@ directive: "It works on my machine → It works in production"
 <td>
 
 ```diff
-+ [PROTOCOL_03] :: FLUTTER × PYTHON
-! cross-platform frontends, clean DTOs
-! real-time sync, structured data models
++ 🧪 eSRD-Lab — Programmer
+! Django · Flask · Angular · D3.js dashboards
+! eLearning + clinical data platforms
 ```
 
 </td>
 <td>
 
 ```diff
-+ [PROTOCOL_04] :: SECURE AUTH
-! MFA / JWT / Firebase Auth
-! "add security later" == never
-```
-
-</td>
-</tr>
-<tr>
-<td>
-
-```diff
-+ [PROTOCOL_05] :: DATABASE OPS
-! schema design, query optimization
-! fixed before it becomes the problem
-```
-
-</td>
-<td>
-
-```diff
-+ [PROTOCOL_06] :: DEPLOY DISCIPLINE
-! Docker / CI/CD / Linux
-! boring deploys. zero 2AM surprises.
++ 🎌 B-JET — Japan Bridge Program
+! Japanese language + business training
+! Programming contests · image/data analysis
 ```
 
 </td>
 </tr>
 </table>
 
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
 
-## `> cat ./loadout.sys`
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"> `$ cat /proc/skills`
 
 <div align="center">
 
-**◢ NEURAL LANGUAGES ◣**
+**⚙️ LANGUAGES**
 
-![Python](https://img.shields.io/badge/PYTHON-0d0221?style=for-the-badge&logo=python&logoColor=00ffff)
-![Dart](https://img.shields.io/badge/DART-0d0221?style=for-the-badge&logo=dart&logoColor=00ffff)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-0d0221?style=for-the-badge&logo=typescript&logoColor=00ffff)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-0d0221?style=for-the-badge&logo=javascript&logoColor=00ffff)
-![PHP](https://img.shields.io/badge/PHP-0d0221?style=for-the-badge&logo=php&logoColor=00ffff)
+<img src="https://skillicons.dev/icons?i=python,dart,ts,js,java,php,go&theme=dark" alt="languages"/>
 
-**◢ COMBAT FRAMEWORKS ◣**
+**🚀 FRAMEWORKS**
 
-![Flutter](https://img.shields.io/badge/FLUTTER-0d0221?style=for-the-badge&logo=flutter&logoColor=ff00cc)
-![FastAPI](https://img.shields.io/badge/FASTAPI-0d0221?style=for-the-badge&logo=fastapi&logoColor=ff00cc)
-![Django](https://img.shields.io/badge/DJANGO-0d0221?style=for-the-badge&logo=django&logoColor=ff00cc)
-![Flask](https://img.shields.io/badge/FLASK-0d0221?style=for-the-badge&logo=flask&logoColor=ff00cc)
-![Spring](https://img.shields.io/badge/SPRING_BOOT-0d0221?style=for-the-badge&logo=springboot&logoColor=ff00cc)
-![Laravel](https://img.shields.io/badge/LARAVEL-0d0221?style=for-the-badge&logo=laravel&logoColor=ff00cc)
+<img src="https://skillicons.dev/icons?i=flutter,django,flask,fastapi,laravel,rails,spring,angular&theme=dark" alt="frameworks"/>
 
-**◢ AI CO-PROCESSORS ◣**
+**🧠 AI / ML**
 
-![PyTorch](https://img.shields.io/badge/PYTORCH-0d0221?style=for-the-badge&logo=pytorch&logoColor=8a2be2)
-![TensorFlow](https://img.shields.io/badge/TENSORFLOW-0d0221?style=for-the-badge&logo=tensorflow&logoColor=8a2be2)
-![scikit-learn](https://img.shields.io/badge/SCIKIT--LEARN-0d0221?style=for-the-badge&logo=scikitlearn&logoColor=8a2be2)
-![Pandas](https://img.shields.io/badge/PANDAS-0d0221?style=for-the-badge&logo=pandas&logoColor=8a2be2)
-![NumPy](https://img.shields.io/badge/NUMPY-0d0221?style=for-the-badge&logo=numpy&logoColor=8a2be2)
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ai-ml"/>
+<img src="https://img.shields.io/badge/Pandas-1a1b27?style=for-the-badge&logo=pandas&logoColor=bb9af7"/>
+<img src="https://img.shields.io/badge/NumPy-1a1b27?style=for-the-badge&logo=numpy&logoColor=7aa2f7"/>
 
-**◢ CLOUD UPLINK ◣**
+**☁️ CLOUD & DEVOPS**
 
-![GCP](https://img.shields.io/badge/GOOGLE_CLOUD-0d0221?style=for-the-badge&logo=googlecloud&logoColor=00ffff)
-![Firebase](https://img.shields.io/badge/FIREBASE-0d0221?style=for-the-badge&logo=firebase&logoColor=00ffff)
-![AWS](https://img.shields.io/badge/AWS-0d0221?style=for-the-badge&logo=amazonwebservices&logoColor=00ffff)
-![Docker](https://img.shields.io/badge/DOCKER-0d0221?style=for-the-badge&logo=docker&logoColor=00ffff)
-![Linux](https://img.shields.io/badge/LINUX-0d0221?style=for-the-badge&logo=linux&logoColor=00ffff)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-0d0221?style=for-the-badge&logo=githubactions&logoColor=00ffff)
+<img src="https://skillicons.dev/icons?i=gcp,firebase,aws,docker,linux,githubactions,jenkins,git&theme=dark" alt="cloud"/>
 
-**◢ DATA VAULTS ◣**
+**🗄️ DATABASES**
 
-![Firestore](https://img.shields.io/badge/FIRESTORE-0d0221?style=for-the-badge&logo=firebase&logoColor=ff00cc)
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-0d0221?style=for-the-badge&logo=postgresql&logoColor=ff00cc)
-![MySQL](https://img.shields.io/badge/MYSQL-0d0221?style=for-the-badge&logo=mysql&logoColor=ff00cc)
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="databases"/>
+<img src="https://img.shields.io/badge/Firestore-1a1b27?style=for-the-badge&logo=firebase&logoColor=7dcfff"/>
 
 </div>
 
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
 
-## `> run ./snake_protocol.exe`
+## <img src="https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif" width="30"> `$ ./snake --feed contributions`
 
-<!-- 🐍 CONTRIBUTION-EATING SNAKE — requires the snake.yml workflow (see setup) -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg" alt="snake eating contributions" width="95%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg" alt="snake eating contributions" width="95%"/>
+</picture>
 </div>
 
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
 
-## `> run ./current_ops.exe`
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> `$ htop --github`
 
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff" height="170" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&hide_border=true&background=1a1b27&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7&sideLabels=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&dates=565f89" height="170" alt="streak"/>
+
+<br/><br/>
+
+<!-- ⚡ ANIMATED CONTRIBUTION PULSE -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tanvirkse101&bg_color=1a1b27&color=7aa2f7&line=bb9af7&point=7dcfff&area=true&area_color=414868&hide_border=true&custom_title=Contribution%20Pulse%20%E2%9A%A1" width="95%" alt="activity graph"/>
+
+</div>
+
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
+
+## <img src="https://media.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif" width="30"> `$ ls ~/trophy_room`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
+
+</div>
+
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
+
+## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30"> `$ systemctl status tanvir`
+
+```console
+● tanvir.service — Software Engineer
+     Loaded: loaded (/etc/brain/tanvir.service; enabled; vendor preset: caffeinated)
+     Active: active (running) since Oct 2020 — 5+ years, 0 downtime
+   Main PID: 101 (production-first mindset)
+      Tasks: ∞
+     Memory: mostly Python bytecode and Flutter widgets
+        CPU: overclocked on new AI papers
+
+ ├─ shipping    : AI applications @ AIZOTH Inc. 🗾
+ ├─ mastering   : ML pipelines that survive contact with real users
+ ├─ speaking    : English · 日本語 · বাংলা
+ └─ off-duty    : anime ⛩ · video games 🎮 · music 🎧 · overthinking architecture
 ```
-┌─[ ACTIVE MISSIONS ]────────────────────────────────────────────┐
-│                                                                │
-│  ▓▓▓▓▓▓▓▓▓▓▓▓░░░░  PRODUCTION-GRADE AI APPLICATIONS            │
-│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  FLUTTER × PYTHON × FIRESTORE STACK         │
-│  ▓▓▓▓▓▓▓▓▓░░░░░░░  SECURE AUTH — MFA / JWT / FIREBASE          │
-│  ▓▓▓▓▓▓▓▓▓▓▓░░░░░  CLEAN ARCHITECTURE & SYSTEM DESIGN         │
-│                                                                │
-└────────────────────────────── [STATUS: ALL SYSTEMS NOMINAL] ──┘
-```
-
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
-
-## `> fetch ./github_telemetry`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff00cc&text_color=00ffff&icon_color=8a2be2&ring_color=ff00cc" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=0d0221&title_color=ff00cc&text_color=00ffff" height="170"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&hide_border=true&background=0d0221&ring=ff00cc&fire=00ffff&currStreakLabel=00ffff&sideLabels=8a2be2&currStreakNum=ff00cc&sideNums=ff00cc&dates=666" height="170"/>
-
-<!-- ⚡ ANIMATED CONTRIBUTION PULSE GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tanvirkse101&bg_color=0d0221&color=00ffff&line=ff00cc&point=8a2be2&area=true&hide_border=true" width="95%"/>
-
-</div>
-
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,50:8a2be2,100:00ffff&height=3&section=header&animation=blinking" width="100%"/>
-
-## `> unlock ./trophy_vault`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%"/>
-
-</div>
-
-<!-- ═══ ANIMATED NEON DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffff,50:8a2be2,100:ff00cc&height=3&section=header&animation=blinking" width="100%"/>
-
-## `> decrypt ./offline_mode`
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=18&duration=2200&pause=500&color=8A2BE2&center=true&vCenter=true&width=700&lines=ANIME+%E2%9F%A8%E2%A7%B8%E2%9F%A9+VIDEO+GAMES+%E2%9F%A8%E2%A7%B8%E2%9F%A9+MUSIC;OVERTHINKING+SYSTEM+ARCHITECTURE+FOR+FUN;RESPAWNING+IN+3...+2...+1..." alt="offline mode" />
-
-</div>
 
 <br/>
 
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════╗
-║   "DEPLOY IT PROPERLY, OR DON'T DEPLOY IT AT ALL."   ║
-╚══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║   "DEPLOY IT PROPERLY, OR DON'T DEPLOY IT AT ALL."  ⚡   ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
-<!-- ═══════════ ANIMATED FOOTER WAVE ═══════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffff,50:8a2be2,100:ff00cc&height=150&section=footer&animation=fadeIn" width="100%"/>
+<!-- ═══════════════════ ANIMATED FOOTER ═══════════════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%E2%AD%90+a+repo+on+your+way+out%3F;%E3%81%BE%E3%81%9F%E3%81%AD%EF%BD%9E+%F0%9F%91%8B;%24+exit+0" alt="footer typing" />
 
-**`[ CONNECTION TERMINATED ]`**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dcfff,25:bb9af7,50:7aa2f7,75:414868,100:1a1b27&height=180&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
