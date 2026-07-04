@@ -161,10 +161,10 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff" height="170" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff" height="170" alt="stats"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&hide_border=true&background=1a1b27&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7&sideLabels=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&dates=565f89" height="170" alt="streak"/>
+<img src="https://streak-stats.demolab.com/?user=tanvirkse101&hide_border=true&background=1a1b27&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7&sideLabels=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&dates=565f89" height="170" alt="streak"/>
 
 <br/><br/>
 
