@@ -180,7 +180,7 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
+<img src="https://github-profile-trophy-one.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
 
 </div>
 
