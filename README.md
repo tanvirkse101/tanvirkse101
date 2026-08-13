@@ -132,8 +132,6 @@ gitGraph
 **🧠 AI / ML**
 
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ai-ml"/>
-<img src="https://img.shields.io/badge/Pandas-1a1b27?style=for-the-badge&logo=pandas&logoColor=bb9af7"/>
-<img src="https://img.shields.io/badge/NumPy-1a1b27?style=for-the-badge&logo=numpy&logoColor=7aa2f7"/>
 
 **☁️ CLOUD & DEVOPS**
 
@@ -141,8 +139,7 @@ gitGraph
 
 **🗄️ DATABASES**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="databases"/>
-<img src="https://img.shields.io/badge/Firestore-1a1b27?style=for-the-badge&logo=firebase&logoColor=7dcfff"/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase&theme=dark" alt="databases"/>
 
 </div>
 
