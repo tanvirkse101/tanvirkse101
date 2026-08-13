@@ -187,8 +187,13 @@ gitGraph
 
 <div align="center">
 
-<!-- 🏆 Self-generated achievements — served from this repo, never rate-limited -->
-<img src="/github-achievements.svg" width="95%" alt="achievements"/>
+<!-- 🏆 Real GitHub achievements — static badges, always render -->
+<img src="https://img.shields.io/badge/🦈_Pull_Shark-×2-1a1b27?style=for-the-badge&labelColor=414868&color=1a1b27"/>
+<img src="https://img.shields.io/badge/🤝_Pair_Extraordinaire-unlocked-1a1b27?style=for-the-badge&labelColor=414868&color=1a1b27"/>
+<img src="https://img.shields.io/badge/⚡_Quickdraw-unlocked-1a1b27?style=for-the-badge&labelColor=414868&color=1a1b27"/>
+<img src="https://img.shields.io/badge/🎲_YOLO-unlocked-1a1b27?style=for-the-badge&labelColor=414868&color=1a1b27"/>
+
+<sub>Badges earned on GitHub — see them on <a href="https://github.com/tanvirkse101?tab=achievements">my achievements page</a></sub>
 
 </div>
 
