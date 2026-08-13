@@ -167,7 +167,7 @@ gitGraph
 <div align="center">
 
 <!-- 📊 Self-generated stats — served from this repo, never rate-limited -->
-<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/main/github-metrics.svg" width="95%" alt="github metrics"/>
+<img src="/github-metrics.svg" width="95%" alt="github metrics"/>
 
 <br/>
 
@@ -188,7 +188,7 @@ gitGraph
 <div align="center">
 
 <!-- 🏆 Self-generated achievements — served from this repo, never rate-limited -->
-<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/main/github-achievements.svg" width="95%" alt="achievements"/>
+<img src="/github-achievements.svg" width="95%" alt="achievements"/>
 
 </div>
 
