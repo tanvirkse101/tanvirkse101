@@ -5,7 +5,7 @@
 
 <!-- ═══════════════════ TYPING TERMINAL ═══════════════════ -->
 <a href="https://github.com/tanvirkse101">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=7AA2F7&center=true&vCenter=true&multiline=false&width=800&lines=%24+ssh+tanvir%40tsukuba.jp;%3E+building+AI+that+actually+ships+%F0%9F%9A%80;%3E+Python+%C2%B7+Flutter+%C2%B7+Cloud+%C2%B7+ML;%3E+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E3%80%81%E7%A7%81%E3%81%AE%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%81%B8+%F0%9F%91%8B;%3E+Dhaka+%E2%86%92+Tokyo+%E2%86%92+Production+%F0%9F%9A%80" alt="typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=800&color=7AA2F7&center=true&vCenter=true&multiline=false&width=800&lines=%24+ssh+tanvir%40tsukuba.jp;%3E+Hi%2C+I'm+Tanvir+%F0%9F%91%8B;%3E+Python+%C2%B7+Flutter+%C2%B7+Cloud+%C2%B7+ML;%3E+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E3%80%81%E7%A7%81%E3%81%AE%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%81%B8;%3E+Dhaka+%F0%9F%87%A7%F0%9F%87%A9+%E2%86%92+Tsukuba+%F0%9F%87%AF%F0%9F%87%B5+%C2%B7+learning+every+day" alt="typing intro" />
 </a>
 
 <br/><br/>
@@ -21,7 +21,7 @@
 <br/>
 
 <!-- ═══════════════════ OPEN-TO-WORK MARQUEE ═══════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2500&pause=600&color=9ECE6A&center=true&vCenter=true&width=700&lines=%F0%9F%9F%A2+status%3A+shipping+AI+to+production+%40+AIZOTH;%F0%9F%92%BC+open+to%3A+interesting+problems+%C2%B7+hard+deadlines+%C2%B7+strong+coffee;%E2%9A%A1+response+time%3A+faster+than+my+CI+pipeline" alt="status" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2500&pause=600&color=9ECE6A&center=true&vCenter=true&width=700&lines=%F0%9F%9F%A2+currently%3A+building+AI+products+%40+AIZOTH+Inc.%2C+Tsukuba;%F0%9F%8C%B1+always+learning%3A+ML+systems+%C2%B7+cloud+architecture+%C2%B7+%E6%97%A5%E6%9C%AC%E8%AA%9E;%F0%9F%A4%9D+happy+to+connect+and+collaborate" alt="status" />
 
 </div>
 
@@ -32,7 +32,7 @@
 
 ```python
 class TanvirAhamed(SoftwareEngineer):
-    """Full-stack engineer who treats production as the only environment that matters."""
+    """Full-stack engineer who cares about clean code, reliability, and learning something new every day."""
 
     def __init__(self):
         self.location   = "Tsukuba, Ibaraki, Japan 🗾"
@@ -51,7 +51,7 @@ class TanvirAhamed(SoftwareEngineer):
         }
 
     def motto(self) -> str:
-        return "It works on my machine → It works in production. No exceptions."
+        return "Write it carefully, test it honestly, and keep learning."
 ```
 
 <!-- ═══ ANIMATED DIVIDER ═══ -->
@@ -78,7 +78,7 @@ gitGraph
 ```diff
 + ⚡ AIZOTH Inc. — Software Engineer (NOW)
 ! AI-driven products · Python · Flutter · GCP
-! Tsukuba, Japan — shipping AI to production
+! Tsukuba, Japan — contributing to real-world AI tools
 ```
 
 </td>
@@ -147,23 +147,6 @@ gitGraph
 </div>
 
 <!-- ═══ ANIMATED DIVIDER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
-
-## <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="30"> `$ ls ~/projects --featured`
-
-<!-- 📌 EDIT THESE: replace the repo names below with your 4 best public repos -->
-<div align="center">
-
-<a href="https://github.com/tanvirkse101/portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkse101&repo=portfolio&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" alt="pinned repo"/>
-</a>
-<a href="https://github.com/tanvirkse101/tanvirkse101">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkse101&repo=tanvirkse101&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" alt="pinned repo"/>
-</a>
-
-</div>
-
-<!-- ═══ ANIMATED DIVIDER ═══ -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
 
 ## <img src="https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif" width="30"> `$ ./snake --feed contributions`
@@ -213,17 +196,17 @@ gitGraph
 
 ```console
 ● tanvir.service — Software Engineer
-     Loaded: loaded (/etc/brain/tanvir.service; enabled; vendor preset: caffeinated)
-     Active: active (running) since Oct 2020 — 5+ years, 0 downtime
-   Main PID: 101 (production-first mindset)
-      Tasks: ∞
+     Loaded: loaded (/etc/brain/tanvir.service; enabled; vendor preset: curious)
+     Active: active (running) since Oct 2020 — 5+ years of steady growth
+   Main PID: 101 (learning-first mindset)
+      Tasks: always a few in progress
      Memory: mostly Python bytecode and Flutter widgets
-        CPU: overclocked on new AI papers
+        CPU: happily busy reading new AI papers
 
- ├─ shipping    : AI applications @ AIZOTH Inc. 🗾
- ├─ mastering   : ML pipelines that survive contact with real users
+ ├─ working on  : AI applications @ AIZOTH Inc. 🗾
+ ├─ improving   : ML pipelines · cloud architecture · 日本語
  ├─ speaking    : English · 日本語 · বাংলা
- └─ off-duty    : anime ⛩ · video games 🎮 · music 🎧 · overthinking architecture
+ └─ off-duty    : anime ⛩ · video games 🎮 · music 🎧 · reading about architecture
 ```
 
 <!-- ═══ ANIMATED DIVIDER ═══ -->
@@ -243,12 +226,12 @@ gitGraph
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║   "DEPLOY IT PROPERLY, OR DON'T DEPLOY IT AT ALL."  ⚡   ║
+║   "STAY CURIOUS. BUILD CAREFULLY. KEEP LEARNING."  🌱    ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
 <!-- ═══════════════════ ANIMATED FOOTER ═══════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+%E2%AD%90+a+repo+on+your+way+out%3F;%E3%81%BE%E3%81%9F%E3%81%AD%EF%BD%9E+%F0%9F%91%8B;%24+exit+0" alt="footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=BB9AF7&center=true&vCenter=true&width=600&lines=Thank+you+for+taking+the+time+to+visit+%F0%9F%99%8F;%E3%81%94%E8%A6%A7%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F;%E3%81%BE%E3%81%9F%E3%81%AD%EF%BD%9E+%F0%9F%91%8B;%24+exit+0" alt="footer typing" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7dcfff,25:bb9af7,50:7aa2f7,75:414868,100:1a1b27&height=180&section=footer&animation=fadeIn" width="100%"/>
 
