@@ -18,6 +18,11 @@
 
 <code>🇯🇵 日本語 OK</code> <code>🇬🇧 English OK</code> <code>🇧🇩 বাংলা OK</code>
 
+<br/>
+
+<!-- ═══════════════════ OPEN-TO-WORK MARQUEE ═══════════════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2500&pause=600&color=9ECE6A&center=true&vCenter=true&width=700&lines=%F0%9F%9F%A2+status%3A+shipping+AI+to+production+%40+AIZOTH;%F0%9F%92%BC+open+to%3A+interesting+problems+%C2%B7+hard+deadlines+%C2%B7+strong+coffee;%E2%9A%A1+response+time%3A+faster+than+my+CI+pipeline" alt="status" />
+
 </div>
 
 <!-- ═══ ANIMATED DIVIDER ═══ -->
@@ -144,6 +149,23 @@ gitGraph
 <!-- ═══ ANIMATED DIVIDER ═══ -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
 
+## <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="30"> `$ ls ~/projects --featured`
+
+<!-- 📌 EDIT THESE: replace the repo names below with your 4 best public repos -->
+<div align="center">
+
+<a href="https://github.com/tanvirkse101/portfolio">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkse101&repo=portfolio&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" alt="pinned repo"/>
+</a>
+<a href="https://github.com/tanvirkse101/tanvirkse101">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=tanvirkse101&repo=tanvirkse101&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7" alt="pinned repo"/>
+</a>
+
+</div>
+
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,50:bb9af7,100:7dcfff&height=3&section=header&animation=blinking" width="100%"/>
+
 ## <img src="https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif" width="30"> `$ ./snake --feed contributions`
 
 <div align="center">
@@ -161,8 +183,8 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff" height="170" alt="stats"/>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff&rank_icon=github&include_all_commits=true" height="170" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
 
 <img src="https://streak-stats.demolab.com/?user=tanvirkse101&hide_border=true&background=1a1b27&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7&sideLabels=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&dates=565f89" height="170" alt="streak"/>
 
@@ -180,7 +202,7 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-profile-trophy-one.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
 
 </div>
 
@@ -203,6 +225,17 @@ gitGraph
  ├─ speaking    : English · 日本語 · বাংলা
  └─ off-duty    : anime ⛩ · video games 🎮 · music 🎧 · overthinking architecture
 ```
+
+<!-- ═══ ANIMATED DIVIDER ═══ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7dcfff,50:bb9af7,100:7aa2f7&height=3&section=header&animation=blinking" width="100%"/>
+
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="30"> `$ fortune | cowsay`
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%" alt="dev quote"/>
+
+</div>
 
 <br/>
 
