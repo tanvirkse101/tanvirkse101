@@ -166,8 +166,10 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tanvirkse101&show_icons=true&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff&rank_icon=github&include_all_commits=true" height="170" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&layout=compact&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" height="170" alt="top languages"/>
+<!-- 📊 Self-generated stats — served from this repo, never rate-limited -->
+<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/main/github-metrics.svg" width="95%" alt="github metrics"/>
+
+<br/>
 
 <img src="https://streak-stats.demolab.com/?user=tanvirkse101&hide_border=true&background=1a1b27&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7&sideLabels=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&dates=565f89" height="170" alt="streak"/>
 
@@ -185,7 +187,8 @@ gitGraph
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="95%" alt="trophies"/>
+<!-- 🏆 Self-generated achievements — served from this repo, never rate-limited -->
+<img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/main/github-achievements.svg" width="95%" alt="achievements"/>
 
 </div>
 
