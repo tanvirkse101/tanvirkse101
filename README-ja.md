@@ -1,26 +1,130 @@
-## 🌐 言語:
-[![English](https://img.shields.io/badge/English-日本語-red)](README.md)
+<div align="center">
 
-# 👋 こんにちは！タンヴィルと申します！
+<img src="assets/code-runner.svg" width="100%" alt="TANVIR AHAMED / Cyberdeck 101 — software engineer and gamer">
 
-## 💼 自己紹介:
-- 🔭 現在はPython開発に取り組んでいます
-- 👯 AI/MLプロジェクトでの協力を探しています
-- 🌱 現在はDevOpsを学んでいます
-- 💬 [ポートフォリオ](https://tanvirkse101.github.io/portfolio/)をチェックしてください
-- ⚡ 興味深い事実: アニメ、ビデオゲーム、音楽が大好きです
+**[ ENGLISH ](README.md)** · **[ PORTFOLIO ↗ ](https://tanvirahamed.dev)** · **[ LINKEDIN ↗ ](https://www.linkedin.com/in/tanvirkse)**
 
-## 🌐 コンタクト:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/tanvirkse)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanvir-ahamed-9256121b9)
+`[ CYBERDECK_101 ]`　`[ SYSTEM READY ]`
 
-## 💻 技術スタック:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Code-Igniter](https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+**ビルド。探索。学び。次のステージへ。**
 
-## 📊 GitHub ステータス:
-![GitHub ステータス](https://github-readme-stats.vercel.app/api?username=tanvirkse101&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)
-![GitHub ストリーク](https://github-readme-streak-stats.herokuapp.com/?user=tanvirkse101&theme=tokyonight&hide_border=false)
-![トップ言語](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirkse101&theme=tokyonight&hide_border=false&layout=compact)
+</div>
 
-## 🏆 GitHub トロフィー:
-![GitHub トロフィー](https://github-profile-trophy.vercel.app/?username=tanvirkse101&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+<img src="assets/section-player.svg" width="100%" alt="01 / OPERATOR DOSSIER">
+
+<img src="assets/player-card.svg" width="100%" alt="Tanvir Ahamed: Software Engineer at AIZOTH Inc., Tsukuba, Japan. Bangladesh → Japan. English, Japanese, Bengali. Games, anime, music.">
+
+Pythonでロジックを組み、Flutterで画面を作り、AIとクラウドの世界を探索する。バグに遭遇したら、ログを読み、戦略を変え、もう一度挑む。エディタを閉じたら、ゲーム・アニメ・音楽の時間。
+
+<img src="assets/section-skills.svg" width="100%" alt="02 / CYBERWARE LOADOUT — Programming skills">
+
+<p align="center">
+<img src="assets/skill-backend.svg" width="400" alt="Execution Engine: Python, Django, Flask, FastAPI">
+<img src="assets/skill-interface.svg" width="400" alt="Optical Interface: Flutter, Dart, TypeScript, Angular">
+</p>
+
+<p align="center">
+<img src="assets/skill-ai.svg" width="400" alt="Neural Processor: PyTorch, TensorFlow, scikit-learn, Pandas, NumPy">
+<img src="assets/skill-cloud.svg" width="400" alt="Deployment Link: GCP, Firebase, AWS, Docker, Linux, CI/CD">
+</p>
+
+<p align="center">
+<img src="assets/skill-data.svg" width="400" alt="Memory Bank: PostgreSQL, MySQL, MongoDB, Redis, Firestore">
+<img src="assets/skill-secondary.svg" width="400" alt="Expansion Bus: Laravel, Rails, Spring Boot">
+</p>
+
+<details>
+<summary><b>装備の詳細 / テキスト版</b></summary>
+
+- **Execution Engine** — Python, Django, Flask, FastAPI
+- **Optical Interface** — Flutter, Dart, TypeScript, Angular
+- **Neural Processor** — PyTorch, TensorFlow, scikit-learn, Pandas, NumPy
+- **Deployment Link** — GCP, Firebase, AWS, Docker, Linux, CI/CD
+- **Memory Bank** — PostgreSQL, MySQL, MongoDB, Redis, Firestore
+- **Expansion Bus** — Laravel, Rails, Spring Boot
+
+</details>
+
+<img src="assets/section-missions.svg" width="100%" alt="03 / GIG BOARD — Public repositories">
+
+カードを選ぶとリポジトリが開きます。
+
+<p align="center">
+<a href="https://github.com/tanvirkse101/ecommerce-backend"><img src="assets/mission-commerce.svg" width="400" alt="Open ecommerce-backend"></a>
+<a href="https://github.com/tanvirkse101/python-translator"><img src="assets/mission-translator.svg" width="400" alt="Open python-translator"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/tanvirkse101/Go-CRUD-API"><img src="assets/mission-api.svg" width="400" alt="Open Go-CRUD-API"></a>
+<a href="https://github.com/tanvirkse101/CSE445_Credit_Card_Fraud"><img src="assets/mission-fraud.svg" width="400" alt="Open CSE445_Credit_Card_Fraud"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/tanvirkse101/B-jet-Programming-Contest"><img src="assets/mission-contest.svg" width="400" alt="Open B-jet-Programming-Contest"></a>
+<a href="https://github.com/tanvirkse101/blog-app"><img src="assets/mission-blog.svg" width="400" alt="Open blog-app"></a>
+</p>
+
+<details>
+<summary><b>ミッション一覧 / テキスト版</b></summary>
+
+- [ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend)
+- [python-translator](https://github.com/tanvirkse101/python-translator)
+- [Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API)
+- [CSE445_Credit_Card_Fraud](https://github.com/tanvirkse101/CSE445_Credit_Card_Fraud)
+- [B-jet-Programming-Contest](https://github.com/tanvirkse101/B-jet-Programming-Contest)
+- [blog-app](https://github.com/tanvirkse101/blog-app)
+
+</details>
+
+[ SCAN ALL PUBLIC REPOS → ](https://github.com/tanvirkse101?tab=repositories)
+
+<img src="assets/section-career.svg" width="100%" alt="04 / LIFEPATH ARCHIVE">
+
+<img src="assets/campaign-map.svg" width="100%" alt="2020: B.Sc. Computer Engineering at NSU. 2020–2023: eSRD-Lab. 2023: B-JET. 2024–2025: Have a Talk. 2025–present: AIZOTH.">
+
+<img src="assets/section-arcade.svg" width="100%" alt="05 / NEURAL FEED">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg" alt="Animated snake traversing my GitHub contribution grid" width="100%">
+</picture>
+
+<details>
+<summary><b>▸ READ SYSTEM TELEMETRY / GitHub activity</b></summary>
+
+![GitHub activity and language metrics](github-metrics.svg)
+
+<sub>Repository-generated activity snapshot.</sub>
+
+</details>
+
+<details>
+<summary><b>▸ DECRYPT HIDDEN SHARD / access granted</b></summary>
+
+```python
+class Cyberdeck101:
+    spawn = "Bangladesh"
+    checkpoint = "Tsukuba, Japan"
+    inventory = ["Python", "Flutter", "AI", "Cloud"]
+
+    def encounter(self, bug):
+        evidence = self.read_logs(bug)
+        patch = self.build_fix(evidence)
+        return self.test(patch)  # no victory screen until it passes
+```
+
+<sub>Operator pseudocode. Inspect the gig board for working projects.</sub>
+
+**SHARD DECRYPTED:** The best upgrade is understanding why it broke.
+
+</details>
+
+<a href="mailto:tanvirahamedkse@gmail.com"><img src="assets/coop.svg" width="100%" alt="Open comms channel — email Tanvir to build something together"></a>
+
+<div align="center">
+
+**[ OPEN COMMS ↗ ](mailto:tanvirahamedkse@gmail.com)** · **[ PERSONAL NETNODE ↗ ](https://tanvirahamed.dev)**
+
+`SESSION PERSISTED`　◆　`END TRANSMISSION`
+
+</div>
