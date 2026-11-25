@@ -20,8 +20,10 @@ the owner's favorite games.
 
 - Palette: navy `#0b1026`, maze blue `#2f6bff`, arcade yellow `#ffcc33`,
   brick `#c8402f`, mint `#5fe0a8`, cyan `#3fd0e6`, cream `#f6ecd2`.
-- One pixel grid. Labels use the 5×7 bitmap font in `scripts/build-profile.py`.
-  Body text is a system monospace font, or a system Japanese font in `-ja` assets.
+- One pixel grid. Fonts are embedded in each SVG as subsets, all SIL OFL and
+  vendored in `scripts/fonts/`: Press Start 2P for arcade labels, VT323 for small
+  text, DotGothic16 for Japanese. Pixelify Sans was tried and rejected because its
+  c/o, B/8 and Z/2 look too alike at small sizes.
 - Maze double-line walls and dotted routes connect sections. Brick platforms, pipes,
   and coins frame content. Bevelled blocks interlock for the toolbox.
   All artwork is original. No official logos or art.
@@ -32,8 +34,9 @@ the owner's favorite games.
 
 ## Working on it
 
-- Run `python3 scripts/build-profile.py`. It rebuilds every SVG in `assets/`
-  deterministically. Edit `COPY` in the script, never the SVGs.
+- Run `uv run scripts/build-profile.py`. It installs the pinned fontTools and
+  rebuilds every SVG in `assets/` deterministically. The build fails on a missing
+  glyph or on text that overflows its box. Edit `COPY` in the script, never the SVGs.
 - README.md and README-ja.md hold every essential fact as selectable text.
   Keep them in sync with each other.
 - Optional follow-up: a contribution-based maze animation would need a new

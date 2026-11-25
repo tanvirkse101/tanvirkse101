@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" width="100%" alt="TANVIR AHAMED — Software engineer · Tsukuba, Japan. Pixel title screen: a small yellow chomper follows a dotted maze route into a landscape of brick platforms, a pipe, coins and stacked blocks. Building things. Exploring worlds. Saving progress.">
 
-**[Portfolio](https://tanvirahamed.dev/)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Email](mailto:tanvirahamedksejp@gmail.com)** · **[日本語](README-ja.md)**
+<samp>**[Portfolio](https://tanvirahamed.dev/)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Email](mailto:tanvirahamedksejp@gmail.com)** · **[日本語](README-ja.md)**</samp>
 
 </div>
 
@@ -10,9 +10,9 @@
 
 <img src="assets/head-player.svg" width="100%" alt="1-1 Player">
 
-I’m **Tanvir**, originally from Bangladesh and now living in Tsukuba, Japan.<br>
+<samp>I’m **Tanvir**, originally from Bangladesh and now living in Tsukuba, Japan.<br>
 I work on AI applications at **[AIZOTH](https://aizoth.com)**.<br>
-I speak Bengali, English, and Japanese.
+I speak Bengali, English, and Japanese.</samp>
 
 <br>
 
@@ -20,11 +20,11 @@ I speak Bengali, English, and Japanese.
 
 <img src="assets/stage.svg" width="100%" alt="Two signposts on brick platforms. Day job: AI applications at AIZOTH. Side project: Japanese-learning app, in development.">
 
-**Day job · AIZOTH**<br>
-AI applications with Python, FastAPI, Flutter, and Google Cloud. Most of the work is connecting AI features to applications people actually use.
+<samp>**Day job · AIZOTH**<br>
+AI applications with Python, FastAPI, Flutter, and Google Cloud. Most of the work is connecting AI features to applications people actually use.</samp>
 
-**Side project · Japanese-learning app** — `IN DEVELOPMENT`<br>
-Vocabulary, kanji, and spaced-repetition review. [Project notes →](https://tanvirahamed.dev/projects/japanese-learning-platform/)
+<samp>**Side project · Japanese-learning app** — `IN DEVELOPMENT`<br>
+Vocabulary, kanji, and spaced-repetition review. [Project notes →](https://tanvirahamed.dev/projects/japanese-learning-platform/)</samp>
 
 <br>
 
@@ -32,19 +32,19 @@ Vocabulary, kanji, and spaced-repetition review. [Project notes →](https://tan
 
 <img src="assets/toolbox.svg" width="100%" alt="Four interlocking blocks: Python / FastAPI, Flutter / Dart, AI agents / RAG, Google Cloud / Docker.">
 
-**Python / FastAPI** · **Flutter / Dart** · **AI agents / RAG** · **Google Cloud / Docker**
+<samp>**Python / FastAPI** · **Flutter / Dart** · **AI agents / RAG** · **Google Cloud / Docker**</samp>
 
 <details>
-<summary><b>Earlier tools and more repositories</b></summary>
+<summary><samp><b>Earlier tools and more repositories</b></samp></summary>
 <br>
 
-Earlier: Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular · TypeScript · PostgreSQL · MySQL · MongoDB · Redis · AWS
+<samp>Earlier: Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular · TypeScript · PostgreSQL · MySQL · MongoDB · Redis · AWS</samp>
 
-- [python-translator](https://github.com/tanvirkse101/python-translator) — Python · translation + kanji lookup
-- [ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend) — Python
-- [Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API) — Go
-- [CSE440Assignments](https://github.com/tanvirkse101/CSE440Assignments) — Python · Dots and Boxes, university coursework
-- [All repositories →](https://github.com/tanvirkse101?tab=repositories) · [Experience →](https://tanvirahamed.dev/experience/)
+- <samp>[python-translator](https://github.com/tanvirkse101/python-translator) — Python · translation + kanji lookup</samp>
+- <samp>[ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend) — Python</samp>
+- <samp>[Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API) — Go</samp>
+- <samp>[CSE440Assignments](https://github.com/tanvirkse101/CSE440Assignments) — Python · Dots and Boxes, university coursework</samp>
+- <samp>[All repositories →](https://github.com/tanvirkse101?tab=repositories) · [Experience →](https://tanvirahamed.dev/experience/)</samp>
 
 </details>
 
@@ -54,7 +54,7 @@ Earlier: Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular �
 
 <img src="assets/route.svg" width="100%" alt="Dotted maze route with three stops: Dhaka, Bangladesh; Miyazaki, Kyushu; Tsukuba, Ibaraki, today.">
 
-**Dhaka → Miyazaki → Tsukuba.** From Bangladesh to Kyushu, and now Tsukuba. [The longer version →](https://tanvirahamed.dev/about/)
+<samp>**Dhaka → Miyazaki → Tsukuba.** From Bangladesh to Kyushu, and now Tsukuba. [The longer version →](https://tanvirahamed.dev/about/)</samp>
 
 <br>
 
@@ -62,8 +62,8 @@ Earlier: Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular �
 
 <img src="assets/shelf.svg" width="100%" alt="Arcade game-select screen. Featured: Dota 2 and Assassin’s Creed. Also on the shelf: Attack on Titan, Dragon Ball Z, The Office, Breaking Bad, Interstellar, Avicii.">
 
-Off duty: **Dota 2**, **Assassin’s Creed**, and an **Avicii** soundtrack.<br>
-Also on the shelf: Attack on Titan · Dragon Ball Z · The Office · Breaking Bad · Interstellar
+<samp>Off duty: **Dota 2**, **Assassin’s Creed**, and an **Avicii** soundtrack.<br>
+Also on the shelf: Attack on Titan · Dragon Ball Z · The Office · Breaking Bad · Interstellar</samp>
 
 <br>
 
@@ -75,7 +75,7 @@ Also on the shelf: Attack on Titan · Dragon Ball Z · The Office · Breaking Ba
 </picture>
 
 <details>
-<summary><b>GitHub stats</b></summary>
+<summary><samp><b>GitHub stats</b></samp></summary>
 <br>
 
 ![GitHub activity and language metrics](github-metrics.svg)
@@ -86,6 +86,7 @@ Also on the shelf: Attack on Titan · Dragon Ball Z · The Office · Breaking Ba
 
 <a href="mailto:tanvirahamedksejp@gmail.com"><img src="assets/continue.svg" width="100%" alt="CONTINUE? Say hello — games, recommendations, building things."></a>
 
-Up for talking games, swapping recommendations, or building something? Say hello.
+<samp>Up for talking games, swapping recommendations, or building something? Say hello.</samp>
 
-**[Email](mailto:tanvirahamedksejp@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Portfolio](https://tanvirahamed.dev/)**
+<samp>**[Email](mailto:tanvirahamedksejp@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Portfolio](https://tanvirahamed.dev/)**
+</samp>

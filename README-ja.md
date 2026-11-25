@@ -2,7 +2,7 @@
 
 <img src="assets/hero-ja.svg" width="100%" alt="TANVIR AHAMED（タンヴィル・アハメド）— ソフトウェアエンジニア · 茨城県つくば市。ピクセルのタイトル画面：小さな黄色いキャラクターが迷路の点線ルートをたどり、レンガの足場、土管、コイン、積み上がったブロックの風景へ。つくる。めぐる。セーブする。">
 
-**[ポートフォリオ](https://tanvirahamed.dev/)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[メール](mailto:tanvirahamedksejp@gmail.com)** · **[English](README.md)**
+<samp>**[ポートフォリオ](https://tanvirahamed.dev/)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[メール](mailto:tanvirahamedksejp@gmail.com)** · **[English](README.md)**</samp>
 
 </div>
 
@@ -10,9 +10,9 @@
 
 <img src="assets/head-player-ja.svg" width="100%" alt="1-1 プレイヤー">
 
-**タンヴィル**です。バングラデシュ出身で、いまは茨城県つくば市に住んでいます。<br>
+<samp>**タンヴィル**です。バングラデシュ出身で、いまは茨城県つくば市に住んでいます。<br>
 **[AIZOTH](https://aizoth.com)** でAIアプリケーションの開発をしています。<br>
-ベンガル語・英語・日本語を話します。
+ベンガル語・英語・日本語を話します。</samp>
 
 <br>
 
@@ -20,11 +20,11 @@
 
 <img src="assets/stage-ja.svg" width="100%" alt="レンガの足場の上の二つの看板。本業：AIZOTHでAIアプリケーション開発。個人開発：日本語学習アプリ（開発中）。">
 
-**本業 · AIZOTH**<br>
-Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション開発。AIの機能を、実際に使われるアプリにつなげる仕事です。
+<samp>**本業 · AIZOTH**<br>
+Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション開発。AIの機能を、実際に使われるアプリにつなげる仕事です。</samp>
 
-**個人開発 · 日本語学習アプリ** — `開発中`<br>
-語彙、漢字、間隔反復による復習。[プロジェクトについて →](https://tanvirahamed.dev/projects/japanese-learning-platform/)
+<samp>**個人開発 · 日本語学習アプリ** — `開発中`<br>
+語彙、漢字、間隔反復による復習。[プロジェクトについて →](https://tanvirahamed.dev/projects/japanese-learning-platform/)</samp>
 
 <br>
 
@@ -32,19 +32,19 @@ Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション
 
 <img src="assets/toolbox.svg" width="100%" alt="組み合わさった四つのブロック：Python / FastAPI、Flutter / Dart、AI agents / RAG、Google Cloud / Docker。">
 
-**Python / FastAPI** · **Flutter / Dart** · **AI agents / RAG** · **Google Cloud / Docker**
+<samp>**Python / FastAPI** · **Flutter / Dart** · **AI agents / RAG** · **Google Cloud / Docker**</samp>
 
 <details>
-<summary><b>以前使っていた技術と、ほかのリポジトリ</b></summary>
+<summary><samp><b>以前使っていた技術と、ほかのリポジトリ</b></samp></summary>
 <br>
 
-以前：Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular · TypeScript · PostgreSQL · MySQL · MongoDB · Redis · AWS
+<samp>以前：Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular · TypeScript · PostgreSQL · MySQL · MongoDB · Redis · AWS</samp>
 
-- [python-translator](https://github.com/tanvirkse101/python-translator) — Python · 翻訳 + 漢字検索
-- [ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend) — Python
-- [Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API) — Go
-- [CSE440Assignments](https://github.com/tanvirkse101/CSE440Assignments) — Python · Dots and Boxes（大学の課題）
-- [すべてのリポジトリ →](https://github.com/tanvirkse101?tab=repositories) · [経歴 →](https://tanvirahamed.dev/experience/)
+- <samp>[python-translator](https://github.com/tanvirkse101/python-translator) — Python · 翻訳 + 漢字検索</samp>
+- <samp>[ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend) — Python</samp>
+- <samp>[Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API) — Go</samp>
+- <samp>[CSE440Assignments](https://github.com/tanvirkse101/CSE440Assignments) — Python · Dots and Boxes（大学の課題）</samp>
+- <samp>[すべてのリポジトリ →](https://github.com/tanvirkse101?tab=repositories) · [経歴 →](https://tanvirahamed.dev/experience/)</samp>
 
 </details>
 
@@ -54,7 +54,7 @@ Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション
 
 <img src="assets/route-ja.svg" width="100%" alt="三つの地点を結ぶ迷路の点線ルート：バングラデシュのダッカ、九州の宮崎、いまの茨城県つくば。">
 
-**ダッカ → 宮崎 → つくば。** バングラデシュから九州へ、そしていまはつくばへ。[くわしくはこちら →](https://tanvirahamed.dev/about/)
+<samp>**ダッカ → 宮崎 → つくば。** バングラデシュから九州へ、そしていまはつくばへ。[くわしくはこちら →](https://tanvirahamed.dev/about/)</samp>
 
 <br>
 
@@ -62,8 +62,8 @@ Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション
 
 <img src="assets/shelf-ja.svg" width="100%" alt="アーケードのゲーム選択画面。大きく：Dota 2、アサシン クリード。ほかに：進撃の巨人、ドラゴンボールZ、ジ・オフィス、ブレイキング・バッド、インターステラー、Avicii。">
 
-オフの日は **Dota 2**、**アサシン クリード**、そして **Avicii** のサウンドトラック。<br>
-ほかにも：進撃の巨人 · ドラゴンボールZ · ジ・オフィス · ブレイキング・バッド · インターステラー
+<samp>オフの日は **Dota 2**、**アサシン クリード**、そして **Avicii** のサウンドトラック。<br>
+ほかにも：進撃の巨人 · ドラゴンボールZ · ジ・オフィス · ブレイキング・バッド · インターステラー</samp>
 
 <br>
 
@@ -75,7 +75,7 @@ Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション
 </picture>
 
 <details>
-<summary><b>GitHubの統計</b></summary>
+<summary><samp><b>GitHubの統計</b></samp></summary>
 <br>
 
 ![GitHubのアクティビティと使用言語](github-metrics.svg)
@@ -86,6 +86,7 @@ Python、FastAPI、Flutter、Google Cloud を使ったAIアプリケーション
 
 <a href="mailto:tanvirahamedksejp@gmail.com"><img src="assets/continue-ja.svg" width="100%" alt="CONTINUE? はなしかける — ゲーム、おすすめ、ものづくり。"></a>
 
-ゲームの話、おすすめ作品の交換、何かを作る相談まで。気軽に声をかけてください。
+<samp>ゲームの話、おすすめ作品の交換、何かを作る相談まで。気軽に声をかけてください。</samp>
 
-**[メール](mailto:tanvirahamedksejp@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[ポートフォリオ](https://tanvirahamed.dev/)**
+<samp>**[メール](mailto:tanvirahamedksejp@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[ポートフォリオ](https://tanvirahamed.dev/)**
+</samp>

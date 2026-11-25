@@ -1,16 +1,26 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = ["fonttools==4.55.3"]
+# ///
 """Build the retro-arcade artwork for the GitHub profile README.
 
-    python3 scripts/build-profile.py
+    uv run scripts/build-profile.py
 
-Standard library only, no network, deterministic output: running it twice
-produces byte-identical files. Never hand-edit the SVGs in assets/; change the
-COPY / data below and rebuild.
+No network needed (fonts are vendored in scripts/fonts/), deterministic
+output: running it twice produces byte-identical files. Never hand-edit the
+SVGs in assets/; change the COPY / data below and rebuild.
 
 Visual system
 -------------
-* One pixel grid. Shapes snap to whole pixels; labels use the 5x7 bitmap
-  font below (FONT), drawn as rectangles so they look identical everywhere.
+* One pixel grid. Shapes snap to whole pixels.
+* Pixel fonts (SIL OFL, see scripts/fonts/OFL-*.txt), embedded per SVG as a
+  WOFF subset of just the characters that SVG uses, so GitHub renders them
+  identically everywhere:
+    - Press Start 2P  -> arcade display labels (sizes on its 8px grid)
+    - VT323           -> readable small text
+    - DotGothic16     -> Japanese
+  The build fails if a glyph is missing or a measured line overflows its box.
 * Palette: midnight navy, electric-blue maze lines, arcade yellow, brick red,
   mint, cyan, cream.
 * Influences, blended into one world: maze corridors + a small yellow
@@ -23,9 +33,15 @@ Visual system
 All essential information also lives as selectable text in README.md and
 README-ja.md; the images are scenery plus a quick visual summary.
 """
-from html import escape
+import re
+from base64 import b64encode
+from html import escape, unescape
+from io import BytesIO
 from math import atan2, degrees, hypot
 from pathlib import Path
+
+from fontTools import subset as ftsubset
+from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets'
@@ -54,9 +70,60 @@ CREAM = '#f6ecd2'
 MUTED = '#a9b0cf'
 DOT_BLUE = '#4a78ff'  # used on transparent strips: readable on white and on #0d1117
 
-MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-JA = ("'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP',"
-      "'Yu Gothic',Meiryo,sans-serif")
+FONT_DIR = ROOT / 'scripts' / 'fonts'
+DISPLAY = "'Arcade Display',ui-monospace,monospace"
+BODY = "'Arcade Body',ui-monospace,Menlo,monospace"
+JA = "'Arcade JA','Hiragino Sans','Noto Sans JP',sans-serif"
+FACES = {  # family stack -> (css name, file, weight range)
+    DISPLAY: ('Arcade Display', 'PressStart2P-Regular.ttf', '400'),
+    BODY: ('Arcade Body', 'VT323-Regular.ttf', '400'),
+    JA: ('Arcade JA', 'DotGothic16-Regular.ttf', '400'),
+}
+_FONTS = {}
+
+
+def _font(fam):
+    if fam not in _FONTS:
+        _FONTS[fam] = TTFont(FONT_DIR / FACES[fam][1], recalcTimestamp=False)
+    return _FONTS[fam]
+
+
+def measure(s, size, fam=BODY, weight=400):
+    """Advance width of s in px."""
+    t = _font(fam)
+    cmap, hmtx, upm = t.getBestCmap(), t['hmtx'], t['head'].unitsPerEm
+    missing = [ch for ch in s if ord(ch) not in cmap]
+    if missing:
+        raise ValueError(f'{FACES[fam][0]} has no glyph for {missing!r} in {s!r}')
+    w = sum(hmtx[cmap[ord(ch)]][0] for ch in s) * size / upm
+    return w
+
+
+def font_css(body):
+    """@font-face rules with WOFF subsets of exactly the glyphs this SVG uses."""
+    css = []
+    for fam, (name, file, weights) in FACES.items():
+        key = re.escape(escape(fam, quote=True))
+        chars = set()
+        for m in re.finditer(r'<text[^>]*font-family="' + key + r'"[^>]*>(.*?)</text>', body):
+            chars |= set(unescape(m.group(1)))
+        if not chars:
+            continue
+        font = TTFont(FONT_DIR / file, recalcTimestamp=False)
+        opts = ftsubset.Options()
+        opts.flavor = 'woff'
+        opts.notdef_outline = True
+        opts.layout_features = []  # no ligatures/alternates: what you type is what renders
+        sub = ftsubset.Subsetter(opts)
+        sub.populate(text=''.join(sorted(chars)))
+        sub.subset(font)
+        buf = BytesIO()
+        font.flavor = 'woff'
+        font.save(buf)
+        data = b64encode(buf.getvalue()).decode()
+        css.append(f"@font-face{{font-family:'{name}';src:url(data:font/woff;base64,{data}) format('woff');"
+                   f"font-weight:{weights}}}")
+    return ''.join(css)
 
 REDUCED = '@media (prefers-reduced-motion:reduce){*{animation:none!important}}'
 
@@ -67,65 +134,9 @@ def f(v):
     return '0' if s == '-0' else s
 
 
-# --------------------------------------------------------------------------
-# 5x7 bitmap font (original). Only the glyphs the artwork needs.
-FONT = {
-    'A': ['.###.', '#...#', '#...#', '#####', '#...#', '#...#', '#...#'],
-    'B': ['####.', '#...#', '#...#', '####.', '#...#', '#...#', '####.'],
-    'C': ['.###.', '#...#', '#....', '#....', '#....', '#...#', '.###.'],
-    'D': ['####.', '#...#', '#...#', '#...#', '#...#', '#...#', '####.'],
-    'E': ['#####', '#....', '#....', '####.', '#....', '#....', '#####'],
-    'F': ['#####', '#....', '#....', '####.', '#....', '#....', '#....'],
-    'G': ['.###.', '#...#', '#....', '#.###', '#...#', '#...#', '.####'],
-    'H': ['#...#', '#...#', '#...#', '#####', '#...#', '#...#', '#...#'],
-    'I': ['.###.', '..#..', '..#..', '..#..', '..#..', '..#..', '.###.'],
-    'J': ['..###', '...#.', '...#.', '...#.', '...#.', '#..#.', '.##..'],
-    'K': ['#...#', '#..#.', '#.#..', '##...', '#.#..', '#..#.', '#...#'],
-    'L': ['#....', '#....', '#....', '#....', '#....', '#....', '#####'],
-    'M': ['#...#', '##.##', '#.#.#', '#.#.#', '#...#', '#...#', '#...#'],
-    'N': ['#...#', '#...#', '##..#', '#.#.#', '#..##', '#...#', '#...#'],
-    'O': ['.###.', '#...#', '#...#', '#...#', '#...#', '#...#', '.###.'],
-    'P': ['####.', '#...#', '#...#', '####.', '#....', '#....', '#....'],
-    'Q': ['.###.', '#...#', '#...#', '#...#', '#.#.#', '#..#.', '.##.#'],
-    'R': ['####.', '#...#', '#...#', '####.', '#.#..', '#..#.', '#...#'],
-    'S': ['.####', '#....', '#....', '.###.', '....#', '....#', '####.'],
-    'T': ['#####', '..#..', '..#..', '..#..', '..#..', '..#..', '..#..'],
-    'U': ['#...#', '#...#', '#...#', '#...#', '#...#', '#...#', '.###.'],
-    'V': ['#...#', '#...#', '#...#', '#...#', '#...#', '.#.#.', '..#..'],
-    'W': ['#...#', '#...#', '#...#', '#.#.#', '#.#.#', '#.#.#', '.#.#.'],
-    'X': ['#...#', '#...#', '.#.#.', '..#..', '.#.#.', '#...#', '#...#'],
-    'Y': ['#...#', '#...#', '.#.#.', '..#..', '..#..', '..#..', '..#..'],
-    'Z': ['#####', '....#', '...#.', '..#..', '.#...', '#....', '#####'],
-    '0': ['.###.', '#...#', '#..##', '#.#.#', '##..#', '#...#', '.###.'],
-    '1': ['..#..', '.##..', '..#..', '..#..', '..#..', '..#..', '.###.'],
-    '2': ['.###.', '#...#', '....#', '...#.', '..#..', '.#...', '#####'],
-    '3': ['####.', '....#', '....#', '.###.', '....#', '....#', '####.'],
-    '4': ['...#.', '..##.', '.#.#.', '#..#.', '#####', '...#.', '...#.'],
-    '5': ['#####', '#....', '####.', '....#', '....#', '#...#', '.###.'],
-    '6': ['..##.', '.#...', '#....', '####.', '#...#', '#...#', '.###.'],
-    '7': ['#####', '....#', '...#.', '..#..', '.#...', '.#...', '.#...'],
-    '8': ['.###.', '#...#', '#...#', '.###.', '#...#', '#...#', '.###.'],
-    '9': ['.###.', '#...#', '#...#', '.####', '....#', '...#.', '.##..'],
-    '-': ['.....', '.....', '.....', '.###.', '.....', '.....', '.....'],
-    '.': ['.....', '.....', '.....', '.....', '.....', '.....', '..#..'],
-    ',': ['.....', '.....', '.....', '.....', '.....', '..#..', '.#...'],
-    '?': ['.###.', '#...#', '....#', '...#.', '..#..', '.....', '..#..'],
-    '!': ['..#..', '..#..', '..#..', '..#..', '..#..', '.....', '..#..'],
-    "'": ['..#..', '..#..', '.#...', '.....', '.....', '.....', '.....'],
-    '>': ['.#...', '..#..', '...#.', '....#', '...#.', '..#..', '.#...'],
-    '/': ['....#', '....#', '...#.', '..#..', '.#...', '#....', '#....'],
-    ':': ['.....', '..#..', '.....', '.....', '.....', '..#..', '.....'],
-    '·': ['.....', '.....', '.....', '..#..', '.....', '.....', '.....'],
-    ' ': ['...', '...', '...', '...', '...', '...', '...'],
-}
-
-
-def _adv(ch):
-    return len(FONT[ch][0]) + 1
-
-
 def pwidth(s, scale):
-    return (sum(_adv(c) for c in s) - 1) * scale
+    """Width of display text drawn with ptext(..., scale)."""
+    return round(measure(s, 8 * scale, DISPLAY))
 
 
 def cells_path(cells, u, ox=0.0, oy=0.0):
@@ -147,28 +158,24 @@ def cells_path(cells, u, ox=0.0, oy=0.0):
     return ''.join(d)
 
 
-def ptext(x, y, s, scale=3, fill=CREAM, shadow=None):
-    """Bitmap text. (x, y) is the top-left corner; height = 7 * scale."""
-    cells, cx = [], 0
-    for ch in s:
-        for r, row in enumerate(FONT[ch]):
-            for c, bit in enumerate(row):
-                if bit == '#':
-                    cells.append((cx + c, r))
-        cx += _adv(ch)
-    out = ''
-    if shadow:
-        out += f'<path fill="{shadow}" d="{cells_path(cells, scale, x, y + scale)}"/>'
-    return out + f'<path fill="{fill}" d="{cells_path(cells, scale, x, y)}"/>'
+def text(x, y, s, size=16, fill=CREAM, weight=400, font=BODY, anchor='start', maxw=None):
+    weight = 400  # every embedded face ships one weight; never synthesize bold
+    if maxw is not None and measure(s, size, font, weight) > maxw:
+        raise ValueError(f'text overflows {maxw}px: {s!r} @ {size}px')
+    measure(s, size, font, weight)  # glyph coverage check
+    return (f'<text x="{f(x)}" y="{f(y)}" font-family="{escape(font, quote=True)}" font-size="{size}" '
+            f'font-weight="{weight}" fill="{fill}" text-anchor="{anchor}">{escape(s)}</text>')
+
+
+def ptext(x, y, s, scale=3, fill=CREAM, shadow=None, anchor='start'):
+    """Arcade display text on the 8px grid. (x, y) is the top of the capitals."""
+    size, base = 8 * scale, y + 7 * scale
+    out = text(x, base + scale, s, size, shadow, 400, DISPLAY, anchor) if shadow else ''
+    return out + text(x, base, s, size, fill, 400, DISPLAY, anchor)
 
 
 def ptext_c(cx, y, s, scale=3, fill=CREAM, shadow=None):
-    return ptext(round(cx - pwidth(s, scale) / 2), y, s, scale, fill, shadow)
-
-
-def text(x, y, s, size=16, fill=CREAM, weight=400, font=MONO, anchor='start'):
-    return (f'<text x="{f(x)}" y="{f(y)}" font-family="{escape(font, quote=True)}" font-size="{size}" '
-            f'font-weight="{weight}" fill="{fill}" text-anchor="{anchor}">{escape(s)}</text>')
+    return ptext(cx, y, s, scale, fill, shadow, 'middle')
 
 
 def sprite(rows, colors, x, y, u):
@@ -401,7 +408,8 @@ class Route:
 
 
 def write(name, w, h, title, desc, body, css=''):
-    style = f'<style>{css}{REDUCED}</style>' if css else ''
+    fonts = font_css(body)
+    style = f'<style>{fonts}{css}{REDUCED if css else ""}</style>' if (css or fonts) else ''
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
            f'role="img" aria-labelledby="t d"><title id="t">{escape(title)}</title><desc id="d">{escape(desc)}</desc>'
            f'{style}<g shape-rendering="crispEdges">{body}</g></svg>\n')
@@ -413,7 +421,7 @@ def write(name, w, h, title, desc, body, css=''):
 # Copy. Keep facts in sync with README.md, README-ja.md and tanvirahamed.dev.
 COPY = {
     'en': {
-        'font': MONO,
+        'font': BODY,
         'hero_title': 'TANVIR AHAMED — Software engineer · Tsukuba, Japan',
         'hero_desc': ('Pixel title screen. A small yellow chomper follows a dotted maze route that flows into a '
                       'landscape of brick platforms, a green pipe, coins and stacked blocks. '
@@ -509,11 +517,11 @@ def build_hero(lang, c):
     b.append(sprite(CLOUD, CLOUD_C, 838, 44, 4))
     b.append(ptext_c(W / 2, 30, 'TANVIR AHAMED', 6, CREAM, shadow=BLUE_D))
     if lang == 'ja':
-        b.append(text(W / 2, 104, 'タンヴィル・アハメド  ·  ' + c['subtitle'], 16, MUTED, 400, JA, 'middle'))
-        b.append(text(W / 2, 132, 'つくる。めぐる。セーブする。', 15, YELLOW, 700, JA, 'middle'))
+        b.append(text(W / 2, 104, 'タンヴィル・アハメド  ·  ' + c['subtitle'], 16, MUTED, 400, JA, 'middle', maxw=880))
+        b.append(text(W / 2, 134, 'つくる。めぐる。セーブする。', 16, YELLOW, 400, JA, 'middle'))
     else:
-        b.append(text(W / 2, 104, c['subtitle'], 17, MUTED, 400, MONO, 'middle'))
-        b.append(ptext_c(W / 2, 118, 'BUILDING THINGS. EXPLORING WORLDS. SAVING PROGRESS.', 2, YELLOW))
+        b.append(text(W / 2, 106, c['subtitle'], 24, MUTED, 400, BODY, 'middle'))
+        b.append(ptext_c(W / 2, 120, 'BUILDING THINGS. EXPLORING WORLDS. SAVING PROGRESS.', 2, YELLOW))
 
     # Maze: outer border open on the right, islands inside.
     border = rounded([(440, 175), (440, 155), (12, 155), (12, 292), (440, 292), (440, 215)], 10, closed=False)
@@ -560,14 +568,14 @@ ICONS = {
 
 def build_head(lang, key, label, ja):
     H = 52
-    jw = len(ja) * 16 + 16 if ja else 0
+    jw = round(measure(ja, 16, JA)) + 16 if ja else 0
     tile_w = 52 + pwidth(label, 3) + jw + 18
     b = [f'<path fill="{NAVY}" d="M4 6H{tile_w - 4}V10H{tile_w}V42H{tile_w - 4}V46H4V42H0V10H4Z"/>',
          f'<path fill="none" stroke="{BLUE}" stroke-width="2" d="M6 9H{tile_w - 6}V13H{tile_w - 3}V39H{tile_w - 6}V43H6V39H3V13H6Z"/>',
          ICONS[key](12, 13)]
     b.append(ptext(52, 16, label, 3, CREAM))
     if ja:
-        b.append(text(52 + pwidth(label, 3) + 16, 33, ja, 16, YELLOW, 700, JA))
+        b.append(text(52 + pwidth(label, 3) + 16, 34, ja, 16, YELLOW, 400, JA))
     d = []
     x = tile_w + 14
     while x < W - 16:
@@ -588,17 +596,17 @@ def tag(x, y, label, kind):
         w = pwidth(label, 2) + 20
         return (f'<rect x="{x}" y="{y}" width="{w}" height="26" fill="{RED}"/><rect x="{x}" y="{y}" width="{w}" height="2" fill="{RED_L}"/>'
                 f'<rect x="{x}" y="{y + 24}" width="{w}" height="2" fill="{RED_D}"/>' + ptext(x + 10, y + 6, label, 2, CREAM)), w
-    w = len(label) * 16 + 24
+    w = round(measure(label, 16, JA)) + 24
     return (f'<rect x="{x}" y="{y}" width="{w}" height="26" fill="{RED}"/><rect x="{x}" y="{y}" width="{w}" height="2" fill="{RED_L}"/>'
-            f'<rect x="{x}" y="{y + 24}" width="{w}" height="2" fill="{RED_D}"/>' + text(x + 12, y + 19, label, 15, CREAM, 700, JA)), w
+            f'<rect x="{x}" y="{y + 24}" width="{w}" height="2" fill="{RED_D}"/>' + text(x + 12, y + 19, label, 16, CREAM, 400, JA)), w
 
 
 def signboard(x, y, w, h, title, color, lines, font):
     b = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="10" fill="{NAVY2}"/>',
          maze_wall(rounded([(x, y), (x + w, y), (x + w, y + h), (x, y + h)], 10))]
     b.append(ptext(x + 24, y + 20, title, 3, color))
-    b.append(text(x + 24, y + 70, lines[0], 18, CREAM, 700, font))
-    b.append(text(x + 24, y + 93, lines[1], 14, MUTED, 400, font if font == JA else MONO))
+    b.append(text(x + 24, y + 70, lines[0], 24 if font == BODY else 16, CREAM, 700, font, maxw=w - 40))
+    b.append(text(x + 24, y + 94, lines[1], 20 if font == BODY else 16, MUTED, 400, font, maxw=w - 40))
     return ''.join(b)
 
 
@@ -625,7 +633,7 @@ def build_stage(lang, c):
     b.append(stack(['.C.', 'RCC', 'RRY'], 14, 880, 144))
     # middle: kana block, bobbing coin, dotted route
     b.append(stack(['Y'], 40, 460, 40))
-    b.append(text(480, 70, 'あ', 22, NAVY, 800, JA, 'middle'))
+    b.append(text(480, 71, 'あ', 32, NAVY, 400, JA, 'middle'))
     b.append(f'<g class="bob">{sprite(COIN, COIN_C, 471, 104, 3)}</g>')
     b.append(f'<path fill="{CREAM}" d="' + ''.join(f'M{x} 166h4v4h-4z' for x in range(376, 590, 16)) + '"/>')
     css = ('.bob{animation:bob 2.8s ease-in-out infinite}'
@@ -660,7 +668,7 @@ def _toolbox(name, cols, rows, u, ox, oy, pieces, labels, w, h):
     for i, ((key, l1, l2), cells, (lx, ly)) in enumerate(zip(TOOLS, pieces, labels)):
         ink = CREAM if key == 'R' else NAVY
         g = block_cells(cells, u, ox, oy, key)
-        g += text(lx, ly, l1, 20, ink, 800) + text(lx, ly + 24, l2, 16, ink, 600)
+        g += text(lx, ly, l1, 28, ink, 400, maxw=168) + text(lx, ly + 24, l2, 22, ink, 400, maxw=168)
         b.append(f'<g class="drop">{g}</g>' if i == last else g)
     dy = 2 * u
     css = (f'.drop{{animation:drop 7s linear infinite}}'
@@ -698,7 +706,7 @@ def build_route(lang, c):
     names = ('DHAKA', 'MIYAZAKI', 'TSUKUBA')
     for x, n, sub in zip(xs, names, c['stops']):
         b.append(ptext_c(x, 20, n, 3, CREAM))
-        b.append(text(x, 62, sub, 14 if font == MONO else 14, MUTED, 400, font, 'middle'))
+        b.append(text(x, 64, sub, 20 if font == BODY else 16, MUTED, 400, font, 'middle', maxw=300))
         b.append(bricks(x - 60, 120, 120, 12, row=6, brick=12))
     # Dhaka: Bangladesh flag (green field, red disc)
     b.append(f'<rect x="112" y="72" width="4" height="48" fill="{MUTED}"/>')
@@ -812,19 +820,19 @@ def build_shelf(lang, c):
         b.append(f'<rect x="{ax}" y="{ay}" width="150" height="108" fill="#0e1640"/>')
         b.append(_dota_art(ax + 22, ay + 1) if i == 0 else _rooftops_art(ax, ay))
         for k, line in enumerate(title):
-            b.append(ptext(tx + 184, y0 + 22 + k * 30, line, 3, CREAM))
+            b.append(ptext(tx + 184, y0 + 20 + k * 32, line, 3, CREAM))
         if c['feat_ja'][i]:
-            b.append(text(tx + 184 + pwidth(title[-1], 3) + 14, y0 + 73, c['feat_ja'][i], 15, MUTED, 700, JA))
-        b.append(text(tx + 184, y0 + 110, c['feat_sub'][i], 15, YELLOW if i == 0 else MINT, 700, font))
+            b.append(text(tx + 184, y0 + 96, c['feat_ja'][i], 16, MUTED, 400, JA, maxw=250))
+        b.append(text(tx + 184, y0 + 118, c['feat_sub'][i], 22 if font == BODY else 16, YELLOW if i == 0 else MINT, 700, font, maxw=250))
     b.append(ptext(10, 100, '>', 2, YELLOW))
     for k, ((name, cat), icon) in enumerate(zip(c['shelf'], SHELF_ICONS)):
         col, row = k % 3, k // 3
         x, y = 24 + col * 308, 192 + row * 58
         b.append(f'<rect x="{x}" y="{y}" width="296" height="48" rx="6" fill="{NAVY2}" stroke="{BLUE_D}" stroke-width="2"/>')
         b.append(icon(x + 12, y + 12))
-        nf = JA if (lang == 'ja' and name != 'Avicii') else MONO
-        b.append(text(x + 52, y + 22, name, 16, CREAM, 700, nf))
-        b.append(text(x + 52, y + 40, cat, 13, MUTED, 400, font))
+        nf = JA if (lang == 'ja' and name != 'Avicii') else BODY
+        b.append(text(x + 52, y + 23, name, 22 if nf == BODY else 16, CREAM, 700, nf, maxw=232))
+        b.append(text(x + 52, y + 41, cat, 18 if font == BODY else 13, MUTED, 400, font))
     return write('shelf' + ('-ja' if lang == 'ja' else ''), W, H, c['shelf_title'], c['shelf_desc'], ''.join(b))
 
 
@@ -837,15 +845,15 @@ def build_continue(lang, c):
     b.append(ptext_c(W / 2, 28, 'CONTINUE?', 6, CREAM, shadow=BLUE_D))
     label, kind = c['cont_opt']
     if kind == 'pixel':
-        gw = 18 + 14 + pwidth(label, 3)
+        gw = pwidth('>', 3) + 14 + pwidth(label, 3)
         x0 = round((W - gw) / 2)
-        b.append(ptext(x0 + 32, 98, label, 3, YELLOW))
+        b.append(ptext(x0 + pwidth('>', 3) + 14, 98, label, 3, YELLOW))
     else:
-        gw = 18 + 14 + len(label) * 22
+        gw = pwidth('>', 3) + 14 + round(measure(label, 24, JA))
         x0 = round((W - gw) / 2)
-        b.append(text(x0 + 32, 118, label, 22, YELLOW, 800, JA))
+        b.append(text(x0 + pwidth('>', 3) + 14, 120, label, 24, YELLOW, 400, JA))
     b.append(f'<g class="cur">{ptext(x0, 98, ">", 3, YELLOW)}</g>')
-    b.append(text(W / 2, 150, c['cont_sub'], 15, MUTED, 400, c['font'], 'middle'))
+    b.append(text(W / 2, 152, c['cont_sub'], 22 if c['font'] == BODY else 16, MUTED, 400, c['font'], 'middle'))
     b.append(bricks(8, 176, W - 16, 20, row=10, brick=20))
     b.append(f'<g transform="translate(96 162)">{chomper(2).replace("<g class=" + chr(34) + "mo" + chr(34) + ">", "<g>")}</g>')
     b.append(sprite(COIN, COIN_C, 140, 140, 3))
