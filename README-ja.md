@@ -1,130 +1,84 @@
 <div align="center">
 
-<img src="assets/code-runner.svg" width="100%" alt="TANVIR AHAMED / Cyberdeck 101 — software engineer and gamer">
+<img src="assets/code-runner.svg" width="100%" alt="Tanvir Ahamed — gamer and software engineer. Cyberpunk title screen.">
 
-**[ ENGLISH ](README.md)** · **[ PORTFOLIO ↗ ](https://tanvirahamed.dev)** · **[ LINKEDIN ↗ ](https://www.linkedin.com/in/tanvirkse)**
+**🇧🇩 Bangladesh → 🇯🇵 Japan · ゲーム好き · ソフトウェアエンジニア**
 
-`[ CYBERDECK_101 ]`　`[ SYSTEM READY ]`
-
-**ビルド。探索。学び。次のステージへ。**
+[Portfolio](https://tanvirahamed.dev/) · [LinkedIn](https://www.linkedin.com/in/tanvirkse/) · [English](README.md) · [Email](mailto:tanvirahamedksejp@gmail.com)
 
 </div>
 
-<img src="assets/section-player.svg" width="100%" alt="01 / OPERATOR DOSSIER">
+こんにちは、**タンヴィル**です。つくば在住。Dota 2、アサシン クリード、アニメ、映画、Avicii。そして、ものづくりも好きです。
 
-<img src="assets/player-card.svg" width="100%" alt="Tanvir Ahamed: Software Engineer at AIZOTH Inc., Tsukuba, Japan. Bangladesh → Japan. English, Japanese, Bengali. Games, anime, music.">
+**বাংলা · English · 日本語** でどうぞ。
 
-Pythonでロジックを組み、Flutterで画面を作り、AIとクラウドの世界を探索する。バグに遭遇したら、ログを読み、戦略を変え、もう一度挑む。エディタを閉じたら、ゲーム・アニメ・音楽の時間。
-
-<img src="assets/section-skills.svg" width="100%" alt="02 / CYBERWARE LOADOUT — Programming skills">
+<img src="assets/heading-games.svg" width="100%" alt="01 / GAME LIBRARY">
 
 <p align="center">
-<img src="assets/skill-backend.svg" width="400" alt="Execution Engine: Python, Django, Flask, FastAPI">
-<img src="assets/skill-interface.svg" width="400" alt="Optical Interface: Flutter, Dart, TypeScript, Angular">
+<img src="assets/interest-dota2.svg" width="400" alt="Dota 2 — multiplayer / MOBA">
+<img src="assets/interest-assassins-creed.svg" width="400" alt="Assassin’s Creed — action / adventure">
+</p>
+
+**Dota 2** と **アサシン クリード**。違う世界、どちらも好きなゲーム。おすすめがあれば、ぜひ。
+
+<img src="assets/heading-media.svg" width="100%" alt="02 / AFTER HOURS">
+
+<p align="center">
+<img src="assets/interest-attack-on-titan.svg" width="400" alt="Attack on Titan / 進撃の巨人">
+<img src="assets/interest-dragon-ball.svg" width="400" alt="Dragon Ball Z / ドラゴンボールZ">
 </p>
 
 <p align="center">
-<img src="assets/skill-ai.svg" width="400" alt="Neural Processor: PyTorch, TensorFlow, scikit-learn, Pandas, NumPy">
-<img src="assets/skill-cloud.svg" width="400" alt="Deployment Link: GCP, Firebase, AWS, Docker, Linux, CI/CD">
+<img src="assets/interest-the-office.svg" width="400" alt="The Office">
+<img src="assets/interest-breaking-bad.svg" width="400" alt="Breaking Bad">
 </p>
 
 <p align="center">
-<img src="assets/skill-data.svg" width="400" alt="Memory Bank: PostgreSQL, MySQL, MongoDB, Redis, Firestore">
-<img src="assets/skill-secondary.svg" width="400" alt="Expansion Bus: Laravel, Rails, Spring Boot">
+<img src="assets/interest-interstellar.svg" width="400" alt="Interstellar">
+<img src="assets/interest-avicii.svg" width="400" alt="Avicii — animated decorative equalizer, not live playback">
 </p>
+
+<sub>好きな作品と音楽。イラストの権利は各権利者に帰属します。画像は自分のポートフォリオ掲載素材から。イコライザーは装飾アニメーションです。</sub>
+
+<img src="assets/heading-life.svg" width="100%" alt="03 / WORLD MAP">
+
+<img src="assets/world-map-ja.svg" width="100%" alt="Dhaka → Miyazaki → Tsukuba">
+
+**ダッカ → 宮崎 → つくば。** バングラデシュから日本へ。今の暮らしの拠点はつくばです。 [自己紹介 →](https://tanvirahamed.dev/about/)
+
+<img src="assets/heading-work.svg" width="100%" alt="04 / ENGINEER MODE">
+
+<img src="assets/engineer-mode.svg" width="100%" alt="AIZOTH software engineer. AI applications, Python, FastAPI, Flutter, Google Cloud. Personal Japanese-learning app in development.">
+
+**[AIZOTH](https://aizoth.com)** でAIアプリケーションを開発しています。個人では **[日本語学習アプリ](https://tanvirahamed.dev/projects/japanese-learning-platform/)** を開発中です。
 
 <details>
-<summary><b>装備の詳細 / テキスト版</b></summary>
+<summary><b>作業机をのぞく / 技術とプロジェクト</b></summary>
 
-- **Execution Engine** — Python, Django, Flask, FastAPI
-- **Optical Interface** — Flutter, Dart, TypeScript, Angular
-- **Neural Processor** — PyTorch, TensorFlow, scikit-learn, Pandas, NumPy
-- **Deployment Link** — GCP, Firebase, AWS, Docker, Linux, CI/CD
-- **Memory Bank** — PostgreSQL, MySQL, MongoDB, Redis, Firestore
-- **Expansion Bus** — Laravel, Rails, Spring Boot
+**Python · FastAPI · Flutter · Dart · RAG · AI agents · Google Cloud · Docker**
+
+- [Japanese translation tool](https://github.com/tanvirkse101/python-translator) — Python / translation + kanji lookup.
+- [Dots and Boxes](https://github.com/tanvirkse101/CSE440Assignments) — two-player terminal game / university coursework.
+- [Experience](https://tanvirahamed.dev/experience/) · [All repositories](https://github.com/tanvirkse101?tab=repositories)
 
 </details>
 
-<img src="assets/section-missions.svg" width="100%" alt="03 / GIG BOARD — Public repositories">
-
-カードを選ぶとリポジトリが開きます。
-
-<p align="center">
-<a href="https://github.com/tanvirkse101/ecommerce-backend"><img src="assets/mission-commerce.svg" width="400" alt="Open ecommerce-backend"></a>
-<a href="https://github.com/tanvirkse101/python-translator"><img src="assets/mission-translator.svg" width="400" alt="Open python-translator"></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/tanvirkse101/Go-CRUD-API"><img src="assets/mission-api.svg" width="400" alt="Open Go-CRUD-API"></a>
-<a href="https://github.com/tanvirkse101/CSE445_Credit_Card_Fraud"><img src="assets/mission-fraud.svg" width="400" alt="Open CSE445_Credit_Card_Fraud"></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/tanvirkse101/B-jet-Programming-Contest"><img src="assets/mission-contest.svg" width="400" alt="Open B-jet-Programming-Contest"></a>
-<a href="https://github.com/tanvirkse101/blog-app"><img src="assets/mission-blog.svg" width="400" alt="Open blog-app"></a>
-</p>
-
-<details>
-<summary><b>ミッション一覧 / テキスト版</b></summary>
-
-- [ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend)
-- [python-translator](https://github.com/tanvirkse101/python-translator)
-- [Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API)
-- [CSE445_Credit_Card_Fraud](https://github.com/tanvirkse101/CSE445_Credit_Card_Fraud)
-- [B-jet-Programming-Contest](https://github.com/tanvirkse101/B-jet-Programming-Contest)
-- [blog-app](https://github.com/tanvirkse101/blog-app)
-
-</details>
-
-[ SCAN ALL PUBLIC REPOS → ](https://github.com/tanvirkse101?tab=repositories)
-
-<img src="assets/section-career.svg" width="100%" alt="04 / LIFEPATH ARCHIVE">
-
-<img src="assets/campaign-map.svg" width="100%" alt="2020: B.Sc. Computer Engineering at NSU. 2020–2023: eSRD-Lab. 2023: B-JET. 2024–2025: Have a Talk. 2025–present: AIZOTH.">
-
-<img src="assets/section-arcade.svg" width="100%" alt="05 / NEURAL FEED">
+<img src="assets/heading-arcade.svg" width="100%" alt="05 / BONUS STAGE">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg" alt="Animated snake traversing my GitHub contribution grid" width="100%">
+  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg" alt="Animated contribution snake" width="100%">
 </picture>
 
 <details>
-<summary><b>▸ READ SYSTEM TELEMETRY / GitHub activity</b></summary>
+<summary><b>STATS SCREEN</b></summary>
 
 ![GitHub activity and language metrics](github-metrics.svg)
 
-<sub>Repository-generated activity snapshot.</sub>
-
 </details>
 
-<details>
-<summary><b>▸ DECRYPT HIDDEN SHARD / access granted</b></summary>
+<a href="mailto:tanvirahamedksejp@gmail.com"><img src="assets/party-invite-ja.svg" width="100%" alt="Games, music, good stories — say hello"></a>
 
-```python
-class Cyberdeck101:
-    spawn = "Bangladesh"
-    checkpoint = "Tsukuba, Japan"
-    inventory = ["Python", "Flutter", "AI", "Cloud"]
+ゲーム、アニメ、音楽のおすすめでも、一緒に何かを作る話でも。気軽にどうぞ。
 
-    def encounter(self, bug):
-        evidence = self.read_logs(bug)
-        patch = self.build_fix(evidence)
-        return self.test(patch)  # no victory screen until it passes
-```
-
-<sub>Operator pseudocode. Inspect the gig board for working projects.</sub>
-
-**SHARD DECRYPTED:** The best upgrade is understanding why it broke.
-
-</details>
-
-<a href="mailto:tanvirahamedkse@gmail.com"><img src="assets/coop.svg" width="100%" alt="Open comms channel — email Tanvir to build something together"></a>
-
-<div align="center">
-
-**[ OPEN COMMS ↗ ](mailto:tanvirahamedkse@gmail.com)** · **[ PERSONAL NETNODE ↗ ](https://tanvirahamed.dev)**
-
-`SESSION PERSISTED`　◆　`END TRANSMISSION`
-
-</div>
+**[Email](mailto:tanvirahamedksejp@gmail.com)** · **[Portfolio](https://tanvirahamed.dev/)**

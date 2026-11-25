@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="150" viewBox="0 0 1100 150" role="img" aria-labelledby="title"><title id="title">OPERATOR DOSSIER — IDENTITY VERIFIED // ENGINEER. GAMER. BUILDER.</title>
-<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#f3ed38" stroke-opacity=".04"/></pattern></defs>
-<style>.signal{animation:signal 5s ease-in-out infinite}@keyframes signal{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
-<path d="M1 1H1075L1099 25V149H25L1 125Z" fill="#111414" stroke="#5c5d36"/>
-<path d="M1 1H1075L1099 25V149H25L1 125Z" fill="url(#grid)"/>
-<path d="M1 70V1H70M1030 149H1099V80" fill="none" stroke="#f3ed38" stroke-width="2"/><path d="M0 0H1100V72H765L739 98H0Z" fill="#f3ed38"/><text font-family="Arial,Helvetica,sans-serif" font-style="italic" x="24" y="51" fill="#0b0e0e" font-size="38" font-weight="900" letter-spacing="-1">01 / OPERATOR DOSSIER</text><text font-family="monospace" font-style="normal" x="27" y="128" fill="#bcbfaa" font-size="16" font-weight="400" letter-spacing="1">IDENTITY VERIFIED // ENGINEER. GAMER. BUILDER.</text><text font-family="monospace" font-style="normal" x="865" y="48" fill="#0b0e0e" font-size="19" font-weight="700" letter-spacing="0">SYS://101</text></svg>
