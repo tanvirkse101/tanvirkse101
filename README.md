@@ -1,84 +1,91 @@
 <div align="center">
 
-<img src="assets/code-runner.svg" width="100%" alt="Tanvir Ahamed — gamer and software engineer. Cyberpunk title screen.">
+<img src="assets/hero.svg" width="100%" alt="TANVIR AHAMED — Software engineer · Tsukuba, Japan. Pixel title screen: a small yellow chomper follows a dotted maze route into a landscape of brick platforms, a pipe, coins and stacked blocks. Building things. Exploring worlds. Saving progress.">
 
-**🇧🇩 Bangladesh → 🇯🇵 Japan · Gamer · Software engineer**
-
-[Portfolio](https://tanvirahamed.dev/) · [LinkedIn](https://www.linkedin.com/in/tanvirkse/) · [日本語](README-ja.md) · [Email](mailto:tanvirahamedksejp@gmail.com)
+**[Portfolio](https://tanvirahamed.dev/)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Email](mailto:tanvirahamedksejp@gmail.com)** · **[日本語](README-ja.md)**
 
 </div>
 
-Hey, I’m **Tanvir**, based in Tsukuba, Japan. Dota 2, Assassin’s Creed, anime, films, and an Avicii soundtrack. I build software, too.
+<br>
 
-**বাংলা · English · 日本語** — pick a language and say hello.
+<img src="assets/head-player.svg" width="100%" alt="1-1 Player">
 
-<img src="assets/heading-games.svg" width="100%" alt="01 / GAME LIBRARY">
+I’m **Tanvir**, originally from Bangladesh and now living in Tsukuba, Japan.<br>
+I work on AI applications at **[AIZOTH](https://aizoth.com)**.<br>
+I speak Bengali, English, and Japanese.
 
-<p align="center">
-<img src="assets/interest-dota2.svg" width="400" alt="Dota 2 — multiplayer / MOBA">
-<img src="assets/interest-assassins-creed.svg" width="400" alt="Assassin’s Creed — action / adventure">
-</p>
+<br>
 
-**Dota 2** and **Assassin’s Creed**. Different worlds, both favorites. Got a recommendation for the next game?
+<img src="assets/head-stage.svg" width="100%" alt="1-2 Current stage">
 
-<img src="assets/heading-media.svg" width="100%" alt="02 / AFTER HOURS">
+<img src="assets/stage.svg" width="100%" alt="Two signposts on brick platforms. Day job: AI applications at AIZOTH. Side project: Japanese-learning app, in development.">
 
-<p align="center">
-<img src="assets/interest-attack-on-titan.svg" width="400" alt="Attack on Titan / 進撃の巨人">
-<img src="assets/interest-dragon-ball.svg" width="400" alt="Dragon Ball Z / ドラゴンボールZ">
-</p>
+**Day job · AIZOTH**<br>
+AI applications with Python, FastAPI, Flutter, and Google Cloud. Most of the work is connecting AI features to applications people actually use.
 
-<p align="center">
-<img src="assets/interest-the-office.svg" width="400" alt="The Office">
-<img src="assets/interest-breaking-bad.svg" width="400" alt="Breaking Bad">
-</p>
+**Side project · Japanese-learning app** — `IN DEVELOPMENT`<br>
+Vocabulary, kanji, and spaced-repetition review. [Project notes →](https://tanvirahamed.dev/projects/japanese-learning-platform/)
 
-<p align="center">
-<img src="assets/interest-interstellar.svg" width="400" alt="Interstellar">
-<img src="assets/interest-avicii.svg" width="400" alt="Avicii — animated decorative equalizer, not live playback">
-</p>
+<br>
 
-<sub>Favorites from my [portfolio](https://tanvirahamed.dev/about/). Artwork belongs to its respective owners. The equalizer is decorative, not live playback.</sub>
+<img src="assets/head-toolbox.svg" width="100%" alt="1-3 Toolbox">
 
-<img src="assets/heading-life.svg" width="100%" alt="03 / WORLD MAP">
+<img src="assets/toolbox.svg" width="100%" alt="Four interlocking blocks: Python / FastAPI, Flutter / Dart, AI agents / RAG, Google Cloud / Docker.">
 
-<img src="assets/world-map.svg" width="100%" alt="Dhaka → Miyazaki → Tsukuba">
-
-**Dhaka → Miyazaki → Tsukuba.** From Bangladesh to Japan. These days, Tsukuba is home. [More about me →](https://tanvirahamed.dev/about/)
-
-<img src="assets/heading-work.svg" width="100%" alt="04 / ENGINEER MODE">
-
-<img src="assets/engineer-mode.svg" width="100%" alt="AIZOTH software engineer. AI applications, Python, FastAPI, Flutter, Google Cloud. Personal Japanese-learning app in development.">
-
-I work on AI applications at **[AIZOTH](https://aizoth.com)**. My personal **[Japanese-learning app](https://tanvirahamed.dev/projects/japanese-learning-platform/)** is still in development.
+**Python / FastAPI** · **Flutter / Dart** · **AI agents / RAG** · **Google Cloud / Docker**
 
 <details>
-<summary><b>OPEN WORKBENCH / skills + projects</b></summary>
+<summary><b>Earlier tools and more repositories</b></summary>
+<br>
 
-**Python · FastAPI · Flutter · Dart · RAG · AI agents · Google Cloud · Docker**
+Earlier: Django · Flask · Laravel · Ruby on Rails · Spring Boot · Angular · TypeScript · PostgreSQL · MySQL · MongoDB · Redis · AWS
 
-- [Japanese translation tool](https://github.com/tanvirkse101/python-translator) — Python / translation + kanji lookup.
-- [Dots and Boxes](https://github.com/tanvirkse101/CSE440Assignments) — two-player terminal game / university coursework.
-- [Experience](https://tanvirahamed.dev/experience/) · [All repositories](https://github.com/tanvirkse101?tab=repositories)
+- [python-translator](https://github.com/tanvirkse101/python-translator) — Python · translation + kanji lookup
+- [ecommerce-backend](https://github.com/tanvirkse101/ecommerce-backend) — Python
+- [Go-CRUD-API](https://github.com/tanvirkse101/Go-CRUD-API) — Go
+- [CSE440Assignments](https://github.com/tanvirkse101/CSE440Assignments) — Python · Dots and Boxes, university coursework
+- [All repositories →](https://github.com/tanvirkse101?tab=repositories) · [Experience →](https://tanvirahamed.dev/experience/)
 
 </details>
 
-<img src="assets/heading-arcade.svg" width="100%" alt="05 / BONUS STAGE">
+<br>
+
+<img src="assets/head-route.svg" width="100%" alt="1-4 World route">
+
+<img src="assets/route.svg" width="100%" alt="Dotted maze route with three stops: Dhaka, Bangladesh; Miyazaki, Kyushu; Tsukuba, Ibaraki, today.">
+
+**Dhaka → Miyazaki → Tsukuba.** From Bangladesh to Kyushu, and now Tsukuba. [The longer version →](https://tanvirahamed.dev/about/)
+
+<br>
+
+<img src="assets/head-after.svg" width="100%" alt="1-5 After hours">
+
+<img src="assets/shelf.svg" width="100%" alt="Arcade game-select screen. Featured: Dota 2 and Assassin’s Creed. Also on the shelf: Attack on Titan, Dragon Ball Z, The Office, Breaking Bad, Interstellar, Avicii.">
+
+Off duty: **Dota 2**, **Assassin’s Creed**, and an **Avicii** soundtrack.<br>
+Also on the shelf: Attack on Titan · Dragon Ball Z · The Office · Breaking Bad · Interstellar
+
+<br>
+
+<img src="assets/head-bonus.svg" width="100%" alt="1-6 Bonus stage">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg" alt="Animated contribution snake" width="100%">
+  <img src="https://raw.githubusercontent.com/tanvirkse101/tanvirkse101/output/github-snake.svg" width="100%" alt="Animated snake eating my real GitHub contribution graph">
 </picture>
 
 <details>
-<summary><b>STATS SCREEN</b></summary>
+<summary><b>GitHub stats</b></summary>
+<br>
 
 ![GitHub activity and language metrics](github-metrics.svg)
 
 </details>
 
-<a href="mailto:tanvirahamedksejp@gmail.com"><img src="assets/party-invite.svg" width="100%" alt="Games, music, good stories — say hello"></a>
+<br>
 
-Game recommendations, anime, music, or something worth building together. All good reasons to say hello.
+<a href="mailto:tanvirahamedksejp@gmail.com"><img src="assets/continue.svg" width="100%" alt="CONTINUE? Say hello — games, recommendations, building things."></a>
 
-**[Email](mailto:tanvirahamedksejp@gmail.com)** · **[Portfolio](https://tanvirahamed.dev/)**
+Up for talking games, swapping recommendations, or building something? Say hello.
+
+**[Email](mailto:tanvirahamedksejp@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/tanvirkse/)** · **[Portfolio](https://tanvirahamed.dev/)**
